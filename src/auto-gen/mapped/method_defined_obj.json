@@ -1,0 +1,134 @@
+[
+	{
+		"FilePath" : "C:/Users/aljha/Documents/java/hu/movie/movie/src/main/java/com/movie/movie/controller/MovieController.java",
+		"MethodClassName" : "MovieController",
+		"MethodName" : "helloWorld()",
+		"EndPointUrl" : "None"
+	},
+	{
+		"FilePath" : "C:/Users/aljha/Documents/java/hu/movie/movie/src/main/java/com/movie/movie/controller/MovieController.java",
+		"MethodClassName" : "MovieController",
+		"MethodName" : "addMovie(Movie)",
+		"EndPointUrl" : "None"
+	},
+	{
+		"FilePath" : "C:/Users/aljha/Documents/java/hu/movie/movie/src/main/java/com/movie/movie/controller/MovieController.java",
+		"MethodClassName" : "MovieController",
+		"MethodName" : "getDirectorByMovieId(Long)",
+		"EndPointUrl" : "None"
+	},
+	{
+		"FilePath" : "C:/Users/aljha/Documents/java/hu/movie/movie/src/main/java/com/movie/movie/entity/Actor.java",
+		"MethodClassName" : "Actor",
+		"MethodName" : "Actor(String, String)",
+		"EndPointUrl" : "None"
+	},
+	{
+		"FilePath" : "C:/Users/aljha/Documents/java/hu/movie/movie/src/main/java/com/movie/movie/entity/Movie.java",
+		"MethodClassName" : "Movie",
+		"MethodName" : "Movie(String,int,String,Director)",
+		"EndPointUrl" : "None"
+	},
+	{
+		"FilePath" : "C:/Users/aljha/Documents/java/hu/movie/movie/src/main/java/com/movie/movie/service/MovieService.java",
+		"MethodClassName" : "MovieService",
+		"MethodName" : "addMovie(Movie)",
+		"EndPointUrl" : "None"
+	},
+	{
+		"FilePath" : "C:/Users/aljha/Documents/java/hu/movie/movie/src/main/java/com/movie/movie/service/MovieService.java",
+		"MethodClassName" : "MovieService",
+		"MethodName" : "getDirectorByMovieId(Long)",
+		"EndPointUrl" : "None"
+	},
+	{
+		"FilePath" : "C:/Users/aljha/Documents/java/hu/movie/movie/src/main/java/com/movie/movie/service/MovieService.java",
+		"MethodClassName" : "MovieService",
+		"MethodName" : "findMovieById(Long)",
+		"EndPointUrl" : "None"
+	},
+	{
+		"FilePath" : "C:/Users/aljha/Documents/java/hu/movie/movie/src/main/java/com/movie/movie/service/MovieService.java",
+		"MethodClassName" : "MovieService",
+		"MethodName" : "getAllMovies()",
+		"EndPointUrl" : "None"
+	},
+	{
+		"FilePath" : "C:/Users/aljha/Documents/java/hu/movie/movie/src/main/java/com/movie/movie/service/MovieService.java",
+		"MethodClassName" : "MovieService",
+		"MethodName" : "deleteMovieById(Long)",
+		"EndPointUrl" : "None"
+	},
+	{
+		"FilePath" : "C:/Users/aljha/Documents/java/hu/movie/movie/src/main/java/com/movie/movie/service/MovieService.java",
+		"MethodClassName" : "MovieService",
+		"MethodName" : "updateMovieById(Long, Movie)",
+		"EndPointUrl" : "None"
+	},
+	{
+		"FilePath" : "C:/Users/aljha/Documents/java/hu/movie/movie/src/main/java/com/movie/movie/service/MovieService.java",
+		"MethodClassName" : "MovieService",
+		"MethodName" : "getActorsByMovieId(Long)",
+		"EndPointUrl" : "None"
+	},
+	{
+		"FilePath" : "C:/Users/aljha/Documents/java/hu/movie/movie/src/main/java/com/movie/movie/service/MovieService.java",
+		"MethodClassName" : "MovieService",
+		"MethodName" : "addActor(Long, Actor)",
+		"EndPointUrl" : "None"
+	},
+	{
+		"FilePath" : "C:/Users/aljha/Documents/java/hu/movie/movie/src/main/java/com/movie/movie/service/impl/FizzBuzz.java",
+		"MethodClassName" : "FizzBuzz",
+		"MethodName" : "checkFizzBuzz(int)",
+		"EndPointUrl" : "None"
+	},
+	{
+		"FilePath" : "C:/Users/aljha/Documents/java/hu/movie/movie/src/main/java/com/movie/movie/service/impl/MovieServiceImpl.java",
+		"MethodClassName" : "MovieServiceImpl",
+		"MethodName" : "addMovie(com.movie.movie.entity.Movie)",
+		"EndPointUrl" : "None"
+	},
+	{
+		"FilePath" : "C:/Users/aljha/Documents/java/hu/movie/movie/src/main/java/com/movie/movie/service/impl/MovieServiceImpl.java",
+		"MethodClassName" : "MovieServiceImpl",
+		"MethodName" : "getDirectorByMovieId(Long)",
+		"EndPointUrl" : "None"
+	},
+	{
+		"FilePath" : "C:/Users/aljha/Documents/java/hu/movie/movie/src/main/java/com/movie/movie/service/impl/MovieServiceImpl.java",
+		"MethodClassName" : "MovieServiceImpl",
+		"MethodName" : "findMovieById(Long)",
+		"EndPointUrl" : "None"
+	},
+	{
+		"FilePath" : "C:/Users/aljha/Documents/java/hu/movie/movie/src/main/java/com/movie/movie/service/impl/MovieServiceImpl.java",
+		"MethodClassName" : "MovieServiceImpl",
+		"MethodName" : "getActorsByMovieId(Long)",
+		"EndPointUrl" : "None"
+	},
+	{
+		"FilePath" : "C:/Users/aljha/Documents/java/hu/movie/movie/src/main/java/com/movie/movie/service/impl/MovieServiceImpl.java",
+		"MethodClassName" : "MovieServiceImpl",
+		"MethodName" : "addActor(Long, com.movie.movie.entity.Actor)",
+		"EndPointUrl" : "None"
+	},
+	{
+		"FilePath" : "C:/Users/aljha/Documents/java/hu/movie/movie/src/main/java/com/movie/movie/service/impl/MovieServiceImpl.java",
+		"MethodClassName" : "MovieServiceImpl",
+		"MethodName" : "getAllMovies()",
+		"EndPointUrl" : "None"
+	},
+	{
+		"FilePath" : "C:/Users/aljha/Documents/java/hu/movie/movie/src/main/java/com/movie/movie/service/impl/MovieServiceImpl.java",
+		"MethodClassName" : "MovieServiceImpl",
+		"MethodName" : "deleteMovieById(Long)",
+		"EndPointUrl" : "None"
+	},
+	{
+		"FilePath" : "C:/Users/aljha/Documents/java/hu/movie/movie/src/main/java/com/movie/movie/service/impl/MovieServiceImpl.java",
+		"MethodClassName" : "MovieServiceImpl",
+		"MethodName" : "updateMovieById(Long, com.movie.movie.entity.Movie)",
+		"EndPointUrl" : "None"
+	}
+]

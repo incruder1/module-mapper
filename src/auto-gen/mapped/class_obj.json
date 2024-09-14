@@ -1,0 +1,52 @@
+[
+	{
+		"ClassParentFilePath" : "C:/Users/aljha/Documents/java/hu/movie/movie/src/main/java/com/movie/movie/controller/MovieController.java",
+		"ClassName" : "MovieController",
+		"ClassExtendsName" : "None",
+		"ClassImplementsName" : "None"
+	},
+	{
+		"ClassParentFilePath" : "C:/Users/aljha/Documents/java/hu/movie/movie/src/main/java/com/movie/movie/entity/Actor.java",
+		"ClassName" : "Actor",
+		"ClassExtendsName" : "None",
+		"ClassImplementsName" : "None"
+	},
+	{
+		"ClassParentFilePath" : "C:/Users/aljha/Documents/java/hu/movie/movie/src/main/java/com/movie/movie/entity/Crew.java",
+		"ClassName" : "Crew",
+		"ClassExtendsName" : "None",
+		"ClassImplementsName" : "None"
+	},
+	{
+		"ClassParentFilePath" : "C:/Users/aljha/Documents/java/hu/movie/movie/src/main/java/com/movie/movie/entity/Director.java",
+		"ClassName" : "Director",
+		"ClassExtendsName" : "None",
+		"ClassImplementsName" : "None"
+	},
+	{
+		"ClassParentFilePath" : "C:/Users/aljha/Documents/java/hu/movie/movie/src/main/java/com/movie/movie/entity/Movie.java",
+		"ClassName" : "Movie",
+		"ClassExtendsName" : "None",
+		"ClassImplementsName" : "None"
+	},
+	{
+		"ClassParentFilePath" : "C:/Users/aljha/Documents/java/hu/movie/movie/src/main/java/com/movie/movie/service/MovieService.java",
+		"ClassName" : "MovieService",
+		"ClassExtendsName" : "None",
+		"ClassImplementsName" : "None"
+	},
+	{
+		"ClassParentFilePath" : "C:/Users/aljha/Documents/java/hu/movie/movie/src/main/java/com/movie/movie/service/impl/FizzBuzz.java",
+		"ClassName" : "FizzBuzz",
+		"ClassExtendsName" : "None",
+		"ClassImplementsName" : "None"
+	},
+	{
+		"ClassParentFilePath" : "C:/Users/aljha/Documents/java/hu/movie/movie/src/main/java/com/movie/movie/service/impl/MovieServiceImpl.java",
+		"ClassName" : "MovieServiceImpl",
+		"ClassExtendsName" : "None",
+		"ClassImplementsName" : [
+			"MovieService"
+		]
+	}
+]

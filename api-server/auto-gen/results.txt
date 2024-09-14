@@ -1,0 +1,142 @@
+
+====================================================================================================
+{
+    "File": {
+        "FileName": "api_endpoints.py",
+        "FilePath": "C:/Users/aljha/Documents/ProdAss/ModuleMap/module-mapping/api-server/api_endpoints.py",
+        "FileType": "RestAPIController"
+    },
+    "MethodsDefined": [
+        {
+            "FilePath": "C:/Users/aljha/Documents/ProdAss/ModuleMap/module-mapping/api-server/api_endpoints.py",
+            "MethodClassName": null,
+            "MethodName": "process_all(dir_path: str = None)"
+        }
+    ],
+    "FunctionsCalled": [
+        {
+            "DetailsOfCallingMethod": {
+                "FilePath": "C:/Users/aljha/Documents/ProdAss/ModuleMap/module-mapping/api-server/api_endpoints.py",
+                "ClassName": null,
+                "MethodName": "process_all(dir_path: str = None)"
+            },
+            "DetailsOfFunctionBeingCalled": {
+                "FilePath": null,
+                "ClassName": "PythonScript",
+                "MethodName": "read_directory(dir_path: str)"
+            }
+        }
+    ]
+}
+====================================================================================================
+{
+  "File": {
+    "FileName": "Mermaid.js",
+    "FilePath": "C:/Users/aljha/Documents/ProdAss/ModuleMap/module-mapping/src/components/Mermaid.js",
+    "FileType": "Class"
+  },
+  "Classes": [
+    {
+      "ClassName": "Mermaid",
+      "ClassExtendsName": "React.Component",
+      "ClassImplementsName": null,
+      "ClassParentFilePath": "C:/Users/aljha/Documents/ProdAss/ModuleMap/module-mapping/src/components/Mermaid.js"
+    }
+  ],
+  "MethodsDefined": [
+    {
+      "FilePath": "C:/Users/aljha/Documents/ProdAss/ModuleMap/module-mapping/src/components/Mermaid.js",
+      "MethodClassName": "Mermaid",
+      "MethodName": "componentDidMount()"
+    },
+    {
+      "FilePath": "C:/Users/aljha/Documents/ProdAss/ModuleMap/module-mapping/src/components/Mermaid.js",
+      "MethodClassName": "Mermaid",
+      "MethodName": "render()"
+    }
+  ]
+}
+====================================================================================================
+{
+  "File": {
+    "FileName": "MermaidComp.js",
+    "FilePath": "C:/Users/aljha/Documents/ProdAss/ModuleMap/module-mapping/src/components/MermaidComp.js",
+    "FileType": "Class"
+  },
+  "Classes": [
+    {
+      "ClassName": "MermaidComp",
+      "ClassExtendsName": null,
+      "ClassImplementsName": null,
+      "ClassParentFilePath": "C:/Users/aljha/Documents/ProdAss/ModuleMap/module-mapping/src/components/MermaidComp.js"
+    }
+  ],
+  "MethodsDefined": [
+    {
+      "FilePath": "C:/Users/aljha/Documents/ProdAss/ModuleMap/module-mapping/src/components/MermaidComp.js",
+      "MethodClassName": "MermaidComp",
+      "MethodName": "MermaidComp()"
+    }
+  ],
+  "FunctionsCalled": [
+    {
+      "DetailsOfCallingMethod": {
+        "FilePath": "C:/Users/aljha/Documents/ProdAss/ModuleMap/module-mapping/src/components/MermaidComp.js",
+        "ClassName": "MermaidComp",
+        "MethodName": "MermaidComp()"
+      },
+      "DetailsOfFunctionBeingCalled": {
+        "FilePath": null,
+        "ClassName": "console",
+        "MethodName": "log(example)"
+      }
+    }
+  ]
+}
+====================================================================================================
+{
+    "File": {
+        "FileName": "MixedNodeElement.js",
+        "FilePath": "C:/Users/aljha/Documents/ProdAss/ModuleMap/module-mapping/src/components/MixedNodeElement.js",
+        "FileType": "Class"
+    },
+    "Classes": [
+        {
+            "ClassName": "MixedNodeElement",
+            "ClassExtendsName": null,
+            "ClassImplementsName": null,
+            "ClassParentFilePath": "C:/Users/aljha/Documents/ProdAss/ModuleMap/module-mapping/src/components/MixedNodeElement.js"
+        }
+    ],
+    "MethodsDefined": [
+        {
+            "FilePath": "C:/Users/aljha/Documents/ProdAss/ModuleMap/module-mapping/src/components/MixedNodeElement.js",
+            "MethodClassName": "MixedNodeElement",
+            "MethodName": "MixedNodeElement(nodeData = {}, triggerNodeToggle, foreignObjectProps = {})"
+        },
+        {
+            "FilePath": "C:/Users/aljha/Documents/ProdAss/ModuleMap/module-mapping/src/components/MixedNodeElement.js",
+            "MethodClassName": "MixedNodeElement",
+            "MethodName": "handleCircleHover(hovering)"
+        },
+        {
+            "FilePath": "C:/Users/aljha/Documents/ProdAss/ModuleMap/module-mapping/src/components/MixedNodeElement.js",
+            "MethodClassName": "MixedNodeElement",
+            "MethodName": "handleMouseLeave()"
+        }
+    ],
+    "FunctionsCalled": [
+        {
+            "DetailsOfCallingMethod": {
+                "FilePath": "C:/Users/aljha/Documents/ProdAss/ModuleMap/module-mapping/src/components/MixedNodeElement.js",
+                "ClassName": "MixedNodeElement",
+                "MethodName": "handleCircleHover(hovering)"
+            },
+            "DetailsOfFunctionBeingCalled": {
+                "FilePath": null,
+                "ClassName": "CardComp",
+                "MethodName": "CardComp(nodeData={})"
+            }
+        }
+    ]
+}

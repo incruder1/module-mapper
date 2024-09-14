@@ -1,0 +1,402 @@
+
+====================================================================================================
+{
+  "File": {
+    "FileName": "MovieController.java",
+    "FilePath": "C:/Users/aljha/Documents/java/hu/movie/movie/src/main/java/com/movie/movie/controller/MovieController.java",
+    "FileType": "RestAPIController"
+  },
+  "Classes": [
+    {
+      "ClassName": "MovieController",
+      "ClassExtendsName": null,
+      "ClassImplementsName": null,
+      "ClassParentFilePath": "C:/Users/aljha/Documents/java/hu/movie/movie/src/main/java/com/movie/movie/controller/MovieController.java"
+    }
+  ],
+  "MethodsDefined": [
+    {
+      "FilePath": "C:/Users/aljha/Documents/java/hu/movie/movie/src/main/java/com/movie/movie/controller/MovieController.java",
+      "MethodClassName": "MovieController",
+      "MethodName": "helloWorld()"
+    },
+    {
+      "FilePath": "C:/Users/aljha/Documents/java/hu/movie/movie/src/main/java/com/movie/movie/controller/MovieController.java",
+      "MethodClassName": "MovieController",
+      "MethodName": "addMovie(Movie)"
+    },
+    {
+      "FilePath": "C:/Users/aljha/Documents/java/hu/movie/movie/src/main/java/com/movie/movie/controller/MovieController.java",
+      "MethodClassName": "MovieController",
+      "MethodName": "getDirectorByMovieId(Long)"
+    }
+  ],
+  "FunctionsCalled": [
+    {
+      "DetailsOfCallingMethod": {
+        "FilePath": "C:/Users/aljha/Documents/java/hu/movie/movie/src/main/java/com/movie/movie/controller/MovieController.java",
+        "ClassName": "MovieController",
+        "MethodName": "addMovie(Movie)"
+      },
+      "DetailsOfFunctionBeingCalled": {
+        "FilePath": null,
+        "ClassName": "MovieService",
+        "MethodName": "addMovie(Movie)"
+      }
+    },
+    {
+      "DetailsOfCallingMethod": {
+        "FilePath": "C:/Users/aljha/Documents/java/hu/movie/movie/src/main/java/com/movie/movie/controller/MovieController.java",
+        "ClassName": "MovieController",
+        "MethodName": "getDirectorByMovieId(Long)"
+      },
+      "DetailsOfFunctionBeingCalled": {
+        "FilePath": null,
+        "ClassName": "MovieService",
+        "MethodName": "getDirectorByMovieId(Long)"
+      }
+    }
+  ]
+}
+====================================================================================================
+{
+    "File": {
+        "FileName": "Actor.java",
+        "FilePath": "C:/Users/aljha/Documents/java/hu/movie/movie/src/main/java/com/movie/movie/entity/Actor.java",
+        "FileType": "Model/Entity/DTO"
+    },
+    "Models": [
+        {
+            "Name": "Actor",
+            "Fields": [
+                {
+                    "field_name": "id",
+                    "field_type": "Long"
+                },
+                {
+                    "field_name": "name",
+                    "field_type": "String"
+                },
+                {
+                    "field_name": "biography",
+                    "field_type": "String"
+                },
+                {
+                    "field_name": "movie",
+                    "field_type": "Movie"
+                }
+            ],
+            "FilePath": "C:/Users/aljha/Documents/java/hu/movie/movie/src/main/java/com/movie/movie/entity/Actor.java"
+        }
+    ],
+    "Classes": [
+        {
+            "ClassName": "Actor",
+            "ClassExtendsName": null,
+            "ClassImplementsName": null,
+            "ClassParentFilePath": "C:/Users/aljha/Documents/java/hu/movie/movie/src/main/java/com/movie/movie/entity/Actor.java"
+        }
+    ],
+    "MethodsDefined": [
+        {
+            "FilePath": "C:/Users/aljha/Documents/java/hu/movie/movie/src/main/java/com/movie/movie/entity/Actor.java",
+            "MethodClassName": "Actor",
+            "MethodName": "Actor(String, String)"
+        }
+    ],
+    "FunctionsCalled": [
+        {
+            "DetailsOfCallingMethod": {
+                "FilePath": "C:/Users/aljha/Documents/java/hu/movie/movie/src/main/java/com/movie/movie/entity/Actor.java",
+                "ClassName": "Actor",
+                "MethodName": "Actor(String, String)"
+            },
+            "DetailsOfFunctionBeingCalled": {
+                "FilePath": null,
+                "ClassName": "Movie",
+                "MethodName": null
+            }
+        }
+    ]
+}
+====================================================================================================
+{
+    "File": {
+        "FileName": "Crew.java",
+        "FilePath": "C:/Users/aljha/Documents/java/hu/movie/movie/src/main/java/com/movie/movie/entity/Crew.java",
+        "FileType": "Model/Entity/DTO"
+    },
+    "Models": [
+        {
+            "Name": "Crew",
+            "Fields": [
+                {
+                    "field_name": "id",
+                    "field_type": "Long"
+                },
+                {
+                    "field_name": "name",
+                    "field_type": "String"
+                },
+                {
+                    "field_name": "role",
+                    "field_type": "String"
+                }
+            ],
+            "FilePath": "C:/Users/aljha/Documents/java/hu/movie/movie/src/main/java/com/movie/movie/entity/Crew.java"
+        }
+    ],
+    "Classes": [
+        {
+            "ClassName": "Crew",
+            "ClassExtendsName": null,
+            "ClassImplementsName": null,
+            "ClassParentFilePath": "C:/Users/aljha/Documents/java/hu/movie/movie/src/main/java/com/movie/movie/entity/Crew.java"
+        }
+    ],
+    "MethodsDefined": [],
+    "FunctionsCalled": []
+}
+====================================================================================================
+{
+    "File": {
+        "FileName": "Director.java",
+        "FilePath": "C:/Users/aljha/Documents/java/hu/movie/movie/src/main/java/com/movie/movie/entity/Director.java",
+        "FileType": "Model/Entity/DTO"
+    },
+    "Models": [
+        {
+            "Name": "Director",
+            "Fields": [
+                {
+                    "field_name": "id",
+                    "field_type": "Long"
+                },
+                {
+                    "field_name": "name",
+                    "field_type": "String"
+                },
+                {
+                    "field_name": "biography",
+                    "field_type": "String"
+                }
+            ],
+            "FilePath": "C:/Users/aljha/Documents/java/hu/movie/movie/src/main/java/com/movie/movie/entity/Director.java"
+        }
+    ],
+    "Classes": [
+        {
+            "ClassName": "Director",
+            "ClassExtendsName": null,
+            "ClassImplementsName": null,
+            "ClassParentFilePath": "C:/Users/aljha/Documents/java/hu/movie/movie/src/main/java/com/movie/movie/entity/Director.java"
+        }
+    ],
+    "MethodsDefined": [],
+    "FunctionsCalled": []
+}
+====================================================================================================
+{
+  "File": {
+    "FileName": "Movie.java",
+    "FilePath": "C:/Users/aljha/Documents/java/hu/movie/movie/src/main/java/com/movie/movie/entity/Movie.java",
+    "FileType": "Model/Entity/DTO"
+  },
+  "Models": [
+    {
+      "Name": "Movie",
+      "Fields": [
+        {
+          "field_name": "Id",
+          "field_type": "long"
+        },
+        {
+          "field_name": "title",
+          "field_type": "String"
+        },
+        {
+          "field_name": "releaseYear",
+          "field_type": "int"
+        },
+        {
+          "field_name": "genre",
+          "field_type": "String"
+        },
+        {
+          "field_name": "director",
+          "field_type": "Director"
+        }
+      ],
+      "FilePath": "C:/Users/aljha/Documents/java/hu/movie/movie/src/main/java/com/movie/movie/entity/Movie.java"
+    }
+  ],
+  "Classes": [
+    {
+      "ClassName": "Movie",
+      "ClassExtendsName": null,
+      "ClassImplementsName": null,
+      "ClassParentFilePath": "C:/Users/aljha/Documents/java/hu/movie/movie/src/main/java/com/movie/movie/entity/Movie.java"
+    }
+  ],
+  "MethodsDefined": [
+    {
+      "FilePath": "C:/Users/aljha/Documents/java/hu/movie/movie/src/main/java/com/movie/movie/entity/Movie.java",
+      "MethodClassName": "Movie",
+      "MethodName": "Movie(String,int,String,Director)"
+    }
+  ]
+}
+====================================================================================================
+{
+    "File": {
+        "FileName": "MovieService.java",
+        "FilePath": "C:/Users/aljha/Documents/java/hu/movie/movie/src/main/java/com/movie/movie/service/MovieService.java",
+        "FileType": "Service"
+    },
+    "Classes": [
+        {
+            "ClassName": "MovieService",
+            "ClassExtendsName": null,
+            "ClassImplementsName": null,
+            "ClassParentFilePath": "C:/Users/aljha/Documents/java/hu/movie/movie/src/main/java/com/movie/movie/service/MovieService.java"
+        }
+    ],
+    "MethodsDefined": [
+        {
+            "FilePath": "C:/Users/aljha/Documents/java/hu/movie/movie/src/main/java/com/movie/movie/service/MovieService.java",
+            "MethodClassName": "MovieService",
+            "MethodName": "addMovie(Movie)"
+        },
+        {
+            "FilePath": "C:/Users/aljha/Documents/java/hu/movie/movie/src/main/java/com/movie/movie/service/MovieService.java",
+            "MethodClassName": "MovieService",
+            "MethodName": "getDirectorByMovieId(Long)"
+        },
+        {
+            "FilePath": "C:/Users/aljha/Documents/java/hu/movie/movie/src/main/java/com/movie/movie/service/MovieService.java",
+            "MethodClassName": "MovieService",
+            "MethodName": "findMovieById(Long)"
+        },
+        {
+            "FilePath": "C:/Users/aljha/Documents/java/hu/movie/movie/src/main/java/com/movie/movie/service/MovieService.java",
+            "MethodClassName": "MovieService",
+            "MethodName": "getAllMovies()"
+        },
+        {
+            "FilePath": "C:/Users/aljha/Documents/java/hu/movie/movie/src/main/java/com/movie/movie/service/MovieService.java",
+            "MethodClassName": "MovieService",
+            "MethodName": "deleteMovieById(Long)"
+        },
+        {
+            "FilePath": "C:/Users/aljha/Documents/java/hu/movie/movie/src/main/java/com/movie/movie/service/MovieService.java",
+            "MethodClassName": "MovieService",
+            "MethodName": "updateMovieById(Long, Movie)"
+        },
+        {
+            "FilePath": "C:/Users/aljha/Documents/java/hu/movie/movie/src/main/java/com/movie/movie/service/MovieService.java",
+            "MethodClassName": "MovieService",
+            "MethodName": "getActorsByMovieId(Long)"
+        },
+        {
+            "FilePath": "C:/Users/aljha/Documents/java/hu/movie/movie/src/main/java/com/movie/movie/service/MovieService.java",
+            "MethodClassName": "MovieService",
+            "MethodName": "addActor(Long, Actor)"
+        }
+    ]
+}
+====================================================================================================
+{
+    "File": {
+        "FileName": "FizzBuzz.java",
+        "FilePath": "C:/Users/aljha/Documents/java/hu/movie/movie/src/main/java/com/movie/movie/service/impl/FizzBuzz.java",
+        "FileType": "Service"
+    },
+    "Classes": [
+        {
+            "ClassName": "FizzBuzz",
+            "ClassExtendsName": null,
+            "ClassImplementsName": null,
+            "ClassParentFilePath": "C:/Users/aljha/Documents/java/hu/movie/movie/src/main/java/com/movie/movie/service/impl/FizzBuzz.java"
+        }
+    ],
+    "MethodsDefined": [
+        {
+            "FilePath": "C:/Users/aljha/Documents/java/hu/movie/movie/src/main/java/com/movie/movie/service/impl/FizzBuzz.java",
+            "MethodClassName": "FizzBuzz",
+            "MethodName": "checkFizzBuzz(int)",
+            "EndPointUrl": null
+        }
+    ],
+    "FunctionsCalled": [
+        {
+            "DetailsOfCallingMethod": {
+                "FilePath": "C:/Users/aljha/Documents/java/hu/movie/movie/src/main/java/com/movie/movie/service/impl/FizzBuzz.java",
+                "ClassName": "FizzBuzz",
+                "MethodName": "checkFizzBuzz(int)"
+            },
+            "DetailsOfFunctionBeingCalled": {
+                "FilePath": null,
+                "ClassName": "modulo operator %",
+                "MethodName": "%(int, int)"
+            }
+        }
+    ]
+}
+====================================================================================================
+{
+    "File": {
+        "FileName": "MovieServiceImpl.java",
+        "FilePath": "C:/Users/aljha/Documents/java/hu/movie/movie/src/main/java/com/movie/movie/service/impl/MovieServiceImpl.java",
+        "FileType": "Service"
+    },
+    "Classes": [
+        {
+            "ClassName": "MovieServiceImpl",
+            "ClassExtendsName": null,
+            "ClassImplementsName": ["MovieService"],
+            "ClassParentFilePath": "C:/Users/aljha/Documents/java/hu/movie/movie/src/main/java/com/movie/movie/service/impl/MovieServiceImpl.java"
+        }
+    ],
+    "MethodsDefined": [
+        {
+            "FilePath": "C:/Users/aljha/Documents/java/hu/movie/movie/src/main/java/com/movie/movie/service/impl/MovieServiceImpl.java",
+            "MethodClassName": "MovieServiceImpl",
+            "MethodName": "addMovie(com.movie.movie.entity.Movie)"
+        },
+        {
+            "FilePath": "C:/Users/aljha/Documents/java/hu/movie/movie/src/main/java/com/movie/movie/service/impl/MovieServiceImpl.java",
+            "MethodClassName": "MovieServiceImpl",
+            "MethodName": "getDirectorByMovieId(Long)"
+        },
+        {
+            "FilePath": "C:/Users/aljha/Documents/java/hu/movie/movie/src/main/java/com/movie/movie/service/impl/MovieServiceImpl.java",
+            "MethodClassName": "MovieServiceImpl",
+            "MethodName": "findMovieById(Long)"
+        },
+        {
+            "FilePath": "C:/Users/aljha/Documents/java/hu/movie/movie/src/main/java/com/movie/movie/service/impl/MovieServiceImpl.java",
+            "MethodClassName": "MovieServiceImpl",
+            "MethodName": "getActorsByMovieId(Long)"
+        },
+        {
+            "FilePath": "C:/Users/aljha/Documents/java/hu/movie/movie/src/main/java/com/movie/movie/service/impl/MovieServiceImpl.java",
+            "MethodClassName": "MovieServiceImpl",
+            "MethodName": "addActor(Long, com.movie.movie.entity.Actor)"
+        },
+        {
+            "FilePath": "C:/Users/aljha/Documents/java/hu/movie/movie/src/main/java/com/movie/movie/service/impl/MovieServiceImpl.java",
+            "MethodClassName": "MovieServiceImpl",
+            "MethodName": "getAllMovies()"
+        },
+        {
+            "FilePath": "C:/Users/aljha/Documents/java/hu/movie/movie/src/main/java/com/movie/movie/service/impl/MovieServiceImpl.java",
+            "MethodClassName": "MovieServiceImpl",
+            "MethodName": "deleteMovieById(Long)"
+        },
+        {
+            "FilePath": "C:/Users/aljha/Documents/java/hu/movie/movie/src/main/java/com/movie/movie/service/impl/MovieServiceImpl.java",
+            "MethodClassName": "MovieServiceImpl",
+            "MethodName": "updateMovieById(Long, com.movie.movie.entity.Movie)"
+        }
+    ]
+}

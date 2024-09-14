@@ -1,0 +1,20 @@
+[
+	{
+		"ClassParentFilePath" : "C:/Users/aljha/Documents/ProdAss/ModuleMap/module-mapping/src/components/Mermaid.js",
+		"ClassName" : "Mermaid",
+		"ClassExtendsName" : "React.Component",
+		"ClassImplementsName" : "None"
+	},
+	{
+		"ClassParentFilePath" : "C:/Users/aljha/Documents/ProdAss/ModuleMap/module-mapping/src/components/MermaidComp.js",
+		"ClassName" : "MermaidComp",
+		"ClassExtendsName" : "None",
+		"ClassImplementsName" : "None"
+	},
+	{
+		"ClassParentFilePath" : "C:/Users/aljha/Documents/ProdAss/ModuleMap/module-mapping/src/components/MixedNodeElement.js",
+		"ClassName" : "MixedNodeElement",
+		"ClassExtendsName" : "None",
+		"ClassImplementsName" : "None"
+	}
+]

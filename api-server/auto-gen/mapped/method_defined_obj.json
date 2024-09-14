@@ -1,0 +1,44 @@
+[
+	{
+		"FilePath" : "C:/Users/aljha/Documents/ProdAss/ModuleMap/module-mapping/api-server/api_endpoints.py",
+		"MethodClassName" : "None",
+		"MethodName" : "process_all(dir_path: str = None)",
+		"EndPointUrl" : "None"
+	},
+	{
+		"FilePath" : "C:/Users/aljha/Documents/ProdAss/ModuleMap/module-mapping/src/components/Mermaid.js",
+		"MethodClassName" : "Mermaid",
+		"MethodName" : "componentDidMount()",
+		"EndPointUrl" : "None"
+	},
+	{
+		"FilePath" : "C:/Users/aljha/Documents/ProdAss/ModuleMap/module-mapping/src/components/Mermaid.js",
+		"MethodClassName" : "Mermaid",
+		"MethodName" : "render()",
+		"EndPointUrl" : "None"
+	},
+	{
+		"FilePath" : "C:/Users/aljha/Documents/ProdAss/ModuleMap/module-mapping/src/components/MermaidComp.js",
+		"MethodClassName" : "MermaidComp",
+		"MethodName" : "MermaidComp()",
+		"EndPointUrl" : "None"
+	},
+	{
+		"FilePath" : "C:/Users/aljha/Documents/ProdAss/ModuleMap/module-mapping/src/components/MixedNodeElement.js",
+		"MethodClassName" : "MixedNodeElement",
+		"MethodName" : "MixedNodeElement(nodeData = {}, triggerNodeToggle, foreignObjectProps = {})",
+		"EndPointUrl" : "None"
+	},
+	{
+		"FilePath" : "C:/Users/aljha/Documents/ProdAss/ModuleMap/module-mapping/src/components/MixedNodeElement.js",
+		"MethodClassName" : "MixedNodeElement",
+		"MethodName" : "handleCircleHover(hovering)",
+		"EndPointUrl" : "None"
+	},
+	{
+		"FilePath" : "C:/Users/aljha/Documents/ProdAss/ModuleMap/module-mapping/src/components/MixedNodeElement.js",
+		"MethodClassName" : "MixedNodeElement",
+		"MethodName" : "handleMouseLeave()",
+		"EndPointUrl" : "None"
+	}
+]

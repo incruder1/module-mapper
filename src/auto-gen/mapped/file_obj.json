@@ -1,0 +1,42 @@
+[
+	{
+		"FilePath" : "C:/Users/aljha/Documents/java/hu/movie/movie/src/main/java/com/movie/movie/controller/MovieController.java",
+		"FileName" : "MovieController.java",
+		"FileType" : "RestAPIController"
+	},
+	{
+		"FilePath" : "C:/Users/aljha/Documents/java/hu/movie/movie/src/main/java/com/movie/movie/entity/Actor.java",
+		"FileName" : "Actor.java",
+		"FileType" : "Model/Entity/DTO"
+	},
+	{
+		"FilePath" : "C:/Users/aljha/Documents/java/hu/movie/movie/src/main/java/com/movie/movie/entity/Crew.java",
+		"FileName" : "Crew.java",
+		"FileType" : "Model/Entity/DTO"
+	},
+	{
+		"FilePath" : "C:/Users/aljha/Documents/java/hu/movie/movie/src/main/java/com/movie/movie/entity/Director.java",
+		"FileName" : "Director.java",
+		"FileType" : "Model/Entity/DTO"
+	},
+	{
+		"FilePath" : "C:/Users/aljha/Documents/java/hu/movie/movie/src/main/java/com/movie/movie/entity/Movie.java",
+		"FileName" : "Movie.java",
+		"FileType" : "Model/Entity/DTO"
+	},
+	{
+		"FilePath" : "C:/Users/aljha/Documents/java/hu/movie/movie/src/main/java/com/movie/movie/service/MovieService.java",
+		"FileName" : "MovieService.java",
+		"FileType" : "Service"
+	},
+	{
+		"FilePath" : "C:/Users/aljha/Documents/java/hu/movie/movie/src/main/java/com/movie/movie/service/impl/FizzBuzz.java",
+		"FileName" : "FizzBuzz.java",
+		"FileType" : "Service"
+	},
+	{
+		"FilePath" : "C:/Users/aljha/Documents/java/hu/movie/movie/src/main/java/com/movie/movie/service/impl/MovieServiceImpl.java",
+		"FileName" : "MovieServiceImpl.java",
+		"FileType" : "Service"
+	}
+]

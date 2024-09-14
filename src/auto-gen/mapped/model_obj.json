@@ -1,0 +1,82 @@
+[
+	{
+		"Name" : "Actor",
+		"Fields" : [
+			{
+				"field_name" : "id",
+				"field_type" : "Long"
+			},
+			{
+				"field_name" : "name",
+				"field_type" : "String"
+			},
+			{
+				"field_name" : "biography",
+				"field_type" : "String"
+			},
+			{
+				"field_name" : "movie",
+				"field_type" : "Movie"
+			}
+		]
+	},
+	{
+		"Name" : "Crew",
+		"Fields" : [
+			{
+				"field_name" : "id",
+				"field_type" : "Long"
+			},
+			{
+				"field_name" : "name",
+				"field_type" : "String"
+			},
+			{
+				"field_name" : "role",
+				"field_type" : "String"
+			}
+		]
+	},
+	{
+		"Name" : "Director",
+		"Fields" : [
+			{
+				"field_name" : "id",
+				"field_type" : "Long"
+			},
+			{
+				"field_name" : "name",
+				"field_type" : "String"
+			},
+			{
+				"field_name" : "biography",
+				"field_type" : "String"
+			}
+		]
+	},
+	{
+		"Name" : "Movie",
+		"Fields" : [
+			{
+				"field_name" : "Id",
+				"field_type" : "long"
+			},
+			{
+				"field_name" : "title",
+				"field_type" : "String"
+			},
+			{
+				"field_name" : "releaseYear",
+				"field_type" : "int"
+			},
+			{
+				"field_name" : "genre",
+				"field_type" : "String"
+			},
+			{
+				"field_name" : "director",
+				"field_type" : "Director"
+			}
+		]
+	}
+]

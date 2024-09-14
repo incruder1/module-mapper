@@ -1,0 +1,72 @@
+{
+    "name": "SAMPLE APPLICATION",
+    "attributes": {
+      "ENDPOINT": "/v1/api",
+      "Methods": "Method1()",
+      "FunctionsCall": "Method2()",
+      "FunctionsCall2": "Method2()"
+    },
+    "children": [
+        {
+            "name": "ROUTER 1",
+            "attributes": {
+              "ENDPOINT": "/v1/api",
+              "Methods": "Method1()",
+              "FunctionsCall": "Method2()",
+              "FunctionsCall2": "Method2()"
+            },
+            "children": [
+                {
+                    
+                    "name": "SERVICE 3",
+                    "attributes": {
+                      "ENDPOINT": "/v1/api",
+                      "Methods": "Method1()",
+                      "FunctionsCall": "Method2()",
+                      "FunctionsCall2": "Method2()"
+                    }
+                },
+                {
+                    
+                    "name": "SERVICE 4",
+                    "attributes": {
+                      "ENDPOINT": "/v1/api",
+                      "Methods": "Method1()",
+                      "FunctionsCall": "Method2()",
+                      "FunctionsCall2": "Method2()"
+                    }
+                }
+            ]
+        },
+        {
+            "name": "SAMPLE ROUTER 2",
+            "attributes": {
+              "ENDPOINT": "/v1/api",
+              "Methods": "Method1()",
+              "FunctionsCall": "Method2()",
+              "FunctionsCall2": "Method2()"
+            },
+            "hildren": [
+                {
+                    "name": "SERVICE 1",
+                    "attributes": {
+                      "ENDPOINT": "/v1/api",
+                      "Methods": "Method1()",
+                      "FunctionsCall": "Method2()",
+                      "FunctionsCall2": "Method2()"
+                    }
+                },
+                {
+                    
+                    "name": "SERVICE 2",
+                    "attributes": {
+                      "ENDPOINT": "/v1/api",
+                      "Methods": "Method1()",
+                      "FunctionsCall": "Method2()",
+                      "FunctionsCall2": "Method2()"
+                    }
+                }
+            ]
+        }
+    ]
+}

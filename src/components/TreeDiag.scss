@@ -1,0 +1,249 @@
+
+#reset-this-root {
+  all: unset;
+}
+
+
+.title {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.demo-container {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  background-color: #5CBCFC;
+  height: 100%;
+  width: 100;
+  border-radius: 3%;
+}
+
+.column-left {
+  width: 320px;
+  height: 95vh;
+  display: flex;
+  position: fixed;
+  border-radius: 8px;
+  z-index: 2;
+  margin-left: 2%;
+  margin-top: 1%;
+  flex-direction: column;
+  background: #424242;
+  border-top: 20px solid #D9D8D8;
+}
+
+.controls-container {
+  padding: 8px;
+  display: flex;
+  flex-direction: column;
+  flex-basis: 1;
+  // overflow-y: scroll;
+}
+/* .zoom{
+  display: flex;
+}
+.zoom> button{
+  margin: 2%;
+} */
+
+.nodeDataText{
+  color: black;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: 200;
+  font-style: normal;
+}
+.state-container {
+  display: none;
+  flex-direction: column;
+  flex-basis: 30%;
+  border-top: 1px solid black;
+}
+.state-container > h4 {
+  color: black;
+}
+
+.state {
+  width: 100%;
+  height: 100%;
+}
+
+.column-right {
+  position: fixed;
+  height: 100%;
+  width: 100%;
+}
+
+.tree-container {
+  height: 100%;
+  /* background: #ccf6c8; */
+}
+
+.prop-container {
+  margin-top: 3%;
+  margin-left: 8%;
+  margin-right: 8%;
+}
+.button-combo{
+  display: flex;
+}
+.prop {
+  font-family: 'montserrat';
+  font-weight: bold;
+  display: block;
+  color: white;
+}
+
+.prop-large {
+  font-size: 16px;
+}
+.sub-prop {
+  padding: 5px;
+}
+
+/* .btn-controls {
+  color: #f7fafc;
+  background-color: #0066cc;
+  transition: color 0.15s ease, border-color 0.15s ease;
+} */
+.cardKey{
+  font-weight: 500;
+}  
+/* .btn-controls:hover,
+.btn-controls:focus, */
+/* .btn-controls:active {
+  color: white;
+  border-color: #f7fafc;
+} */
+
+.tree-stats-container {
+  text-align: center;
+  padding: 0.5rem 2rem;
+  font-weight: bold;
+}
+
+/* Custom node classes */
+.demo-node > circle {
+  fill: #ff67d3;
+  stroke: #fff;
+  stroke-width: 5px;
+  z-index: -1 ;
+}
+circle{
+  fill: #7278ff;
+  stroke: white;
+  stroke-width: 5px;
+  z-index: -1;
+  position: relative;
+}
+.rd3t-leaf-node{
+  /* fill: #7278ff; */
+  /* stroke: white; */
+  stroke-width: 4px;
+  position: relative;
+}
+/* Custom path classes */
+.my-path-class {
+  stroke: #5b0eeb;
+  stroke-width: 10;
+}
+
+@keyframes wiggle {
+  0%, 100% {
+    transform: rotateZ(0);
+  }
+  25% {
+    transform: rotateZ(4deg);
+  }
+  75% {
+    transform: rotateZ(-4deg);
+  }
+}
+
+.wiggle {
+  animation: wiggle 0.5s ease-in-out infinite;
+}
+
+.btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: all .3s ease;
+  border-radius: 1rem;
+  box-shadow: .3rem .3rem .6rem var(--greyLight-2), -.2rem -.2rem .5rem var(--white);
+}
+
+/* Primary Button Specific Styling */
+.btn__primary {
+  // background: var(--primary);
+  // color: var(--greyLight-1);
+  width: 8rem;
+  height: 4.7rem;
+  // box-shadow: inset .2rem .2rem 1rem var(--primary-light), 
+  //             inset -.2rem -.2rem 1rem var(--primary-dark),
+  //             .3rem .3rem .6rem var(--greyLight-2), 
+  //             -.2rem -.2rem .5rem var(--white);
+}
+
+.btn__primary:hover {
+  color: var(--white);
+}
+
+.btn__primary:active {
+  box-shadow: inset .2rem .2rem 1rem var(--primary-dark), 
+              inset -.2rem -.2rem 1rem var(--primary-light);
+}
+
+/* Text Styling Inside Buttons */
+.btn p {
+  // font-size: 1rem;
+  margin: 0; /* Resetting margin to align text properly inside the button */
+}
+
+/* Additional Styling for Button Group */
+.button-combo {
+  display: flex;
+  justify-content: space-between; /* Adjust as per layout requirement */
+}
+
+.btn_tree {
+  fill: #7278ff;
+  margin-right: 1rem; /* Space between buttons */
+  height: 4rem; /* Matching height for all buttons */
+}
+
+.btn_tree p {
+  margin-top: 0.5rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+.btn.btn__primary.btn_tree p {
+  font-size: 12px;
+  font-weight: 700;
+  font-family: 'montserrat';
+}
+
+.btn.btn__primary.btn_tree {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.zoom-btns-div {
+  margin-top: 12%;
+}
+
+.switches {
+  width: 50%;
+}
+
+.switch-div-1 {
+  margin-top: 11%;
+  border-top: 0.1px solid #d9d8d8;
+}
+.switch-div-2 {
+  padding-bottom: 7%;
+  border-bottom: 0.1px solid #d9d8d8;
+}

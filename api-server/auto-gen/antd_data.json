@@ -1,0 +1,119 @@
+{
+  "name": "Repo#A",
+  "attributes": {
+    "Type": "Directory",
+    "Path": "C:/Users/aljha/Documents/ProdAss/ModuleMap/module-mapping"
+  },
+  "children": [
+    {
+      "name": "api_endpoints.py",
+      "attributes": {
+        "Type": "File",
+        "Contains": "RestAPIController",
+        "Path": "C:/Users/aljha/Documents/ProdAss/ModuleMap/module-mapping/api-server/api_endpoints.py"
+      },
+      "children": [
+        {
+          "name": "process_all(dir_path: str = None)",
+          "attributes": {
+            "Type": "Method"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Mermaid.js",
+      "attributes": {
+        "Type": "File",
+        "Contains": "Class",
+        "Path": "C:/Users/aljha/Documents/ProdAss/ModuleMap/module-mapping/src/components/Mermaid.js"
+      },
+      "children": [
+        {
+          "name": "Mermaid",
+          "attributes": {
+            "Type": "Class",
+            "Extends": "React.Component",
+            "Path": "C:/Users/aljha/Documents/ProdAss/ModuleMap/module-mapping/src/components/Mermaid.js"
+          },
+          "children": [
+            {
+              "name": "componentDidMount()",
+              "attributes": {
+                "Type": "Method"
+              }
+            },
+            {
+              "name": "render()",
+              "attributes": {
+                "Type": "Method"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "MermaidComp.js",
+      "attributes": {
+        "Type": "File",
+        "Contains": "Class",
+        "Path": "C:/Users/aljha/Documents/ProdAss/ModuleMap/module-mapping/src/components/MermaidComp.js"
+      },
+      "children": [
+        {
+          "name": "MermaidComp",
+          "attributes": {
+            "Type": "Class",
+            "Path": "C:/Users/aljha/Documents/ProdAss/ModuleMap/module-mapping/src/components/MermaidComp.js"
+          },
+          "children": [
+            {
+              "name": "MermaidComp()",
+              "attributes": {
+                "Type": "Method"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "MixedNodeElement.js",
+      "attributes": {
+        "Type": "File",
+        "Contains": "Class",
+        "Path": "C:/Users/aljha/Documents/ProdAss/ModuleMap/module-mapping/src/components/MixedNodeElement.js"
+      },
+      "children": [
+        {
+          "name": "MixedNodeElement",
+          "attributes": {
+            "Type": "Class",
+            "Path": "C:/Users/aljha/Documents/ProdAss/ModuleMap/module-mapping/src/components/MixedNodeElement.js"
+          },
+          "children": [
+            {
+              "name": "MixedNodeElement(nodeData = {}, triggerNodeToggle, foreignObjectProps = {})",
+              "attributes": {
+                "Type": "Method"
+              }
+            },
+            {
+              "name": "handleCircleHover(hovering)",
+              "attributes": {
+                "Type": "Method"
+              }
+            },
+            {
+              "name": "handleMouseLeave()",
+              "attributes": {
+                "Type": "Method"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

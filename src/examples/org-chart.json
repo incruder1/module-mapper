@@ -1,0 +1,1645 @@
+{
+  "name": "Repo#A",
+  "attributes": {
+    "Type": "Directory",
+    "Path": "C:/Users/antekriwal/Desktop/My WorkSpace/JavaTrack/hu-sp-3ffa93bc6-main-4006bd983-antekriwal_deloitte-1719299916638"
+  },
+  "children": [
+    {
+      "name": "BookingController.java",
+      "attributes": {
+        "Type": "File",
+        "Contains": "RestAPIController",
+        "Path": "C:/Users/antekriwal/Desktop/My WorkSpace/JavaTrack/hu-sp-3ffa93bc6-main-4006bd983-antekriwal_deloitte-1719299916638/src/main/java/com/hashedin/huSpark/controller/BookingController.java"
+      },
+      "children": [
+        {
+          "name": "BookingController",
+          "attributes": {
+            "Type": "Class",
+            "Path": "C:/Users/antekriwal/Desktop/My WorkSpace/JavaTrack/hu-sp-3ffa93bc6-main-4006bd983-antekriwal_deloitte-1719299916638/src/main/java/com/hashedin/huSpark/controller/BookingController.java"
+          },
+          "children": [
+            {
+              "name": "bookMyShow(Booking)",
+              "attributes": {
+                "Type": "Method",
+                "EndPoint URL": "/booking/book"
+              },
+              "children": [
+                {
+                  "name": "bookMyShow(Booking)",
+                  "attributes": {
+                    "Type": "Function Call",
+                    "Class": "BookingService",
+                    "Path": "C:/Users/antekriwal/Desktop/My WorkSpace/JavaTrack/hu-sp-3ffa93bc6-main-4006bd983-antekriwal_deloitte-1719299916638/src/main/java/com/hashedin/huSpark/service/BookingService.java"
+                  }
+                }
+              ]
+            },
+            {
+              "name": "cancelMyShow(Long, Integer)",
+              "attributes": {
+                "Type": "Method",
+                "EndPoint URL": "/booking/cancel/{bookingId}"
+              },
+              "children": [
+                {
+                  "name": "cancelMyShow(Long, Integer)",
+                  "attributes": {
+                    "Type": "Function Call",
+                    "Class": "BookingService",
+                    "Path": "C:/Users/antekriwal/Desktop/My WorkSpace/JavaTrack/hu-sp-3ffa93bc6-main-4006bd983-antekriwal_deloitte-1719299916638/src/main/java/com/hashedin/huSpark/service/BookingService.java"
+                  }
+                }
+              ]
+            },
+            {
+              "name": "getMyUpcomingBookings()",
+              "attributes": {
+                "Type": "Method",
+                "EndPoint URL": "/booking/my/upcoming"
+              },
+              "children": [
+                {
+                  "name": "findMyUpcomingBookings()",
+                  "attributes": {
+                    "Type": "Function Call",
+                    "Class": "BookingService",
+                    "Path": "C:/Users/antekriwal/Desktop/My WorkSpace/JavaTrack/hu-sp-3ffa93bc6-main-4006bd983-antekriwal_deloitte-1719299916638/src/main/java/com/hashedin/huSpark/service/BookingService.java"
+                  }
+                }
+              ]
+            },
+            {
+              "name": "getMyPastBookings()",
+              "attributes": {
+                "Type": "Method",
+                "EndPoint URL": "/booking/my/past"
+              },
+              "children": [
+                {
+                  "name": "findMyPastBookings()",
+                  "attributes": {
+                    "Type": "Function Call",
+                    "Class": "BookingService",
+                    "Path": "C:/Users/antekriwal/Desktop/My WorkSpace/JavaTrack/hu-sp-3ffa93bc6-main-4006bd983-antekriwal_deloitte-1719299916638/src/main/java/com/hashedin/huSpark/service/BookingService.java"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "CouponController.java",
+      "attributes": {
+        "Type": "File",
+        "Contains": "RestAPIController",
+        "Path": "C:/Users/antekriwal/Desktop/My WorkSpace/JavaTrack/hu-sp-3ffa93bc6-main-4006bd983-antekriwal_deloitte-1719299916638/src/main/java/com/hashedin/huSpark/controller/CouponController.java"
+      },
+      "children": [
+        {
+          "name": "CouponController",
+          "attributes": {
+            "Type": "Class",
+            "Path": "C:/Users/antekriwal/Desktop/My WorkSpace/JavaTrack/hu-sp-3ffa93bc6-main-4006bd983-antekriwal_deloitte-1719299916638/src/main/java/com/hashedin/huSpark/controller/CouponController.java"
+          },
+          "children": [
+            {
+              "name": "addNewCoupon(Coupon)",
+              "attributes": {
+                "Type": "Method"
+              }
+            },
+            {
+              "name": "deleteExpiredCoupons()",
+              "attributes": {
+                "Type": "Method"
+              },
+              "children": [
+                {
+                  "name": "deleteExpiredCoupons()",
+                  "attributes": {
+                    "Type": "Function Call",
+                    "Class": "couponService",
+                    "Path": "C:/Users/antekriwal/Desktop/My WorkSpace/JavaTrack/hu-sp-3ffa93bc6-main-4006bd983-antekriwal_deloitte-1719299916638/src/main/java/com/hashedin/huSpark/service/CouponService.java"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "EventController.java",
+      "attributes": {
+        "Type": "File",
+        "Contains": "RestAPIController",
+        "Path": "C:/Users/antekriwal/Desktop/My WorkSpace/JavaTrack/hu-sp-3ffa93bc6-main-4006bd983-antekriwal_deloitte-1719299916638/src/main/java/com/hashedin/huSpark/controller/EventController.java"
+      },
+      "children": [
+        {
+          "name": "EventController",
+          "attributes": {
+            "Type": "Class",
+            "Path": "C:/Users/antekriwal/Desktop/My WorkSpace/JavaTrack/hu-sp-3ffa93bc6-main-4006bd983-antekriwal_deloitte-1719299916638/src/main/java/com/hashedin/huSpark/controller/EventController.java"
+          },
+          "children": [
+            {
+              "name": "addNewEvent(Event)",
+              "attributes": {
+                "Type": "Method"
+              },
+              "children": [
+                {
+                  "name": "addNewEvent(Event)",
+                  "attributes": {
+                    "Type": "Function Call",
+                    "Class": "EventService",
+                    "Path": "C:/Users/antekriwal/Desktop/My WorkSpace/JavaTrack/hu-sp-3ffa93bc6-main-4006bd983-antekriwal_deloitte-1719299916638/src/main/java/com/hashedin/huSpark/service/EventService.java"
+                  }
+                }
+              ]
+            },
+            {
+              "name": "deleteThisEvent(Long)",
+              "attributes": {
+                "Type": "Method"
+              },
+              "children": [
+                {
+                  "name": "deleteThisEvent(Long)",
+                  "attributes": {
+                    "Type": "Function Call",
+                    "Class": "EventService",
+                    "Path": "C:/Users/antekriwal/Desktop/My WorkSpace/JavaTrack/hu-sp-3ffa93bc6-main-4006bd983-antekriwal_deloitte-1719299916638/src/main/java/com/hashedin/huSpark/service/EventService.java"
+                  }
+                }
+              ]
+            },
+            {
+              "name": "getUpcomingEvents()",
+              "attributes": {
+                "Type": "Method"
+              },
+              "children": [
+                {
+                  "name": "getUpcomingEvents()",
+                  "attributes": {
+                    "Type": "Function Call",
+                    "Class": "EventService",
+                    "Path": "C:/Users/antekriwal/Desktop/My WorkSpace/JavaTrack/hu-sp-3ffa93bc6-main-4006bd983-antekriwal_deloitte-1719299916638/src/main/java/com/hashedin/huSpark/service/EventService.java"
+                  }
+                }
+              ]
+            },
+            {
+              "name": "getEventsOfThisName(String)",
+              "attributes": {
+                "Type": "Method"
+              },
+              "children": [
+                {
+                  "name": "findAllByEventName(String)",
+                  "attributes": {
+                    "Type": "Function Call",
+                    "Class": "EventService",
+                    "Path": "C:/Users/antekriwal/Desktop/My WorkSpace/JavaTrack/hu-sp-3ffa93bc6-main-4006bd983-antekriwal_deloitte-1719299916638/src/main/java/com/hashedin/huSpark/service/EventService.java"
+                  }
+                }
+              ]
+            },
+            {
+              "name": "getAllEventsOfThisEventType(String)",
+              "attributes": {
+                "Type": "Method"
+              },
+              "children": [
+                {
+                  "name": "findAllEventsOfThisEventType(String)",
+                  "attributes": {
+                    "Type": "Function Call",
+                    "Class": "EventService",
+                    "Path": "C:/Users/antekriwal/Desktop/My WorkSpace/JavaTrack/hu-sp-3ffa93bc6-main-4006bd983-antekriwal_deloitte-1719299916638/src/main/java/com/hashedin/huSpark/service/EventService.java"
+                  }
+                }
+              ]
+            },
+            {
+              "name": "getAllEventsAtThisTheater(String)",
+              "attributes": {
+                "Type": "Method"
+              },
+              "children": [
+                {
+                  "name": "findAllEventsAtThisTheater(String)",
+                  "attributes": {
+                    "Type": "Function Call",
+                    "Class": "EventService",
+                    "Path": "C:/Users/antekriwal/Desktop/My WorkSpace/JavaTrack/hu-sp-3ffa93bc6-main-4006bd983-antekriwal_deloitte-1719299916638/src/main/java/com/hashedin/huSpark/service/EventService.java"
+                  }
+                }
+              ]
+            },
+            {
+              "name": "getEventsWithPaginationAndSort(int, int, String)",
+              "attributes": {
+                "Type": "Method"
+              },
+              "children": [
+                {
+                  "name": "findEventsWithPaginationAndSorting(int, int, String)",
+                  "attributes": {
+                    "Type": "Function Call",
+                    "Class": "EventService",
+                    "Path": "C:/Users/antekriwal/Desktop/My WorkSpace/JavaTrack/hu-sp-3ffa93bc6-main-4006bd983-antekriwal_deloitte-1719299916638/src/main/java/com/hashedin/huSpark/service/EventService.java"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "EventTypeController.java",
+      "attributes": {
+        "Type": "File",
+        "Contains": "RestAPIController",
+        "Path": "C:/Users/antekriwal/Desktop/My WorkSpace/JavaTrack/hu-sp-3ffa93bc6-main-4006bd983-antekriwal_deloitte-1719299916638/src/main/java/com/hashedin/huSpark/controller/EventTypeController.java"
+      },
+      "children": [
+        {
+          "name": "EventTypeController",
+          "attributes": {
+            "Type": "Class",
+            "Path": "C:/Users/antekriwal/Desktop/My WorkSpace/JavaTrack/hu-sp-3ffa93bc6-main-4006bd983-antekriwal_deloitte-1719299916638/src/main/java/com/hashedin/huSpark/controller/EventTypeController.java"
+          },
+          "children": [
+            {
+              "name": "addNewEventType(EventType)",
+              "attributes": {
+                "Type": "Method",
+                "EndPoint URL": "/eventType/add"
+              }
+            },
+            {
+              "name": "getAllEventTypes()",
+              "attributes": {
+                "Type": "Method",
+                "EndPoint URL": "/eventType/all"
+              },
+              "children": [
+                {
+                  "name": "getAllEventTypes()",
+                  "attributes": {
+                    "Type": "Function Call",
+                    "Class": "EventTypeService",
+                    "Path": "C:/Users/antekriwal/Desktop/My WorkSpace/JavaTrack/hu-sp-3ffa93bc6-main-4006bd983-antekriwal_deloitte-1719299916638/src/main/java/com/hashedin/huSpark/service/EventTypeService.java"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "HelloWorldController.java",
+      "attributes": {
+        "Type": "File",
+        "Contains": "RestAPIController",
+        "Path": "C:/Users/antekriwal/Desktop/My WorkSpace/JavaTrack/hu-sp-3ffa93bc6-main-4006bd983-antekriwal_deloitte-1719299916638/src/main/java/com/hashedin/huSpark/controller/HelloWorldController.java"
+      },
+      "children": [
+        {
+          "name": "HelloWorldController",
+          "attributes": {
+            "Type": "Class",
+            "Path": "C:/Users/antekriwal/Desktop/My WorkSpace/JavaTrack/hu-sp-3ffa93bc6-main-4006bd983-antekriwal_deloitte-1719299916638/src/main/java/com/hashedin/huSpark/controller/HelloWorldController.java"
+          },
+          "children": [
+            {
+              "name": "helloWorld()",
+              "attributes": {
+                "Type": "Method",
+                "EndPoint URL": "/"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "TheaterController.java",
+      "attributes": {
+        "Type": "File",
+        "Contains": "RestAPIController",
+        "Path": "C:/Users/antekriwal/Desktop/My WorkSpace/JavaTrack/hu-sp-3ffa93bc6-main-4006bd983-antekriwal_deloitte-1719299916638/src/main/java/com/hashedin/huSpark/controller/TheaterController.java"
+      },
+      "children": [
+        {
+          "name": "TheaterController",
+          "attributes": {
+            "Type": "Class",
+            "Path": "C:/Users/antekriwal/Desktop/My WorkSpace/JavaTrack/hu-sp-3ffa93bc6-main-4006bd983-antekriwal_deloitte-1719299916638/src/main/java/com/hashedin/huSpark/controller/TheaterController.java"
+          },
+          "children": [
+            {
+              "name": "addTheater(Theater)",
+              "attributes": {
+                "Type": "Method",
+                "EndPoint URL": "/theater/add"
+              },
+              "children": [
+                {
+                  "name": "addTheater(Theater)",
+                  "attributes": {
+                    "Type": "Function Call",
+                    "Class": "TheaterService",
+                    "Path": "C:/Users/antekriwal/Desktop/My WorkSpace/JavaTrack/hu-sp-3ffa93bc6-main-4006bd983-antekriwal_deloitte-1719299916638/src/main/java/com/hashedin/huSpark/service/TheaterService.java"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "UserController.java",
+      "attributes": {
+        "Type": "File",
+        "Contains": "RestAPIController",
+        "Path": "C:/Users/antekriwal/Desktop/My WorkSpace/JavaTrack/hu-sp-3ffa93bc6-main-4006bd983-antekriwal_deloitte-1719299916638/src/main/java/com/hashedin/huSpark/controller/UserController.java"
+      },
+      "children": [
+        {
+          "name": "UserController",
+          "attributes": {
+            "Type": "Class",
+            "Path": "C:/Users/antekriwal/Desktop/My WorkSpace/JavaTrack/hu-sp-3ffa93bc6-main-4006bd983-antekriwal_deloitte-1719299916638/src/main/java/com/hashedin/huSpark/controller/UserController.java"
+          },
+          "children": [
+            {
+              "name": "addUser(User)",
+              "attributes": {
+                "Type": "Method"
+              },
+              "children": [
+                {
+                  "name": "addUser(User)",
+                  "attributes": {
+                    "Type": "Function Call",
+                    "Class": "UserService",
+                    "Path": "C:/Users/antekriwal/Desktop/My WorkSpace/JavaTrack/hu-sp-3ffa93bc6-main-4006bd983-antekriwal_deloitte-1719299916638/src/main/java/com/hashedin/huSpark/service/UserService.java"
+                  }
+                }
+              ]
+            },
+            {
+              "name": "authenticateAndGetToken(LoginForm)",
+              "attributes": {
+                "Type": "Method"
+              },
+              "children": [
+                {
+                  "name": "getToken(LoginForm)",
+                  "attributes": {
+                    "Type": "Function Call",
+                    "Class": "UserService",
+                    "Path": "C:/Users/antekriwal/Desktop/My WorkSpace/JavaTrack/hu-sp-3ffa93bc6-main-4006bd983-antekriwal_deloitte-1719299916638/src/main/java/com/hashedin/huSpark/service/UserService.java"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "GlobalExceptionHandler.java",
+      "attributes": {
+        "Type": "File",
+        "Contains": "Class",
+        "Path": "C:/Users/antekriwal/Desktop/My WorkSpace/JavaTrack/hu-sp-3ffa93bc6-main-4006bd983-antekriwal_deloitte-1719299916638/src/main/java/com/hashedin/huSpark/exception/GlobalExceptionHandler.java"
+      },
+      "children": [
+        {
+          "name": "GlobalExceptionHandler",
+          "attributes": {
+            "Type": "Class",
+            "Path": "C:/Users/antekriwal/Desktop/My WorkSpace/JavaTrack/hu-sp-3ffa93bc6-main-4006bd983-antekriwal_deloitte-1719299916638/src/main/java/com/hashedin/huSpark/exception/GlobalExceptionHandler.java"
+          },
+          "children": [
+            {
+              "name": "handleUserAgeLessThan18(UserAgeLessThan18Exception)",
+              "attributes": {
+                "Type": "Method"
+              }
+            },
+            {
+              "name": "handleEndBeforeStart(EventEndBeforeStartException)",
+              "attributes": {
+                "Type": "Method"
+              }
+            },
+            {
+              "name": "handleSimilarEvents(EventClashException)",
+              "attributes": {
+                "Type": "Method"
+              }
+            },
+            {
+              "name": "handleTheaterOREventNotFound(TheaterOREventNotExistsException)",
+              "attributes": {
+                "Type": "Method"
+              }
+            },
+            {
+              "name": "handleDependentBookings(DependentBookingExistsException)",
+              "attributes": {
+                "Type": "Method"
+              }
+            },
+            {
+              "name": "handleEventNotFound(EventNotFoundException)",
+              "attributes": {
+                "Type": "Method"
+              }
+            },
+            {
+              "name": "handleEventStartTimeHasAlreadyPassed(EventStartTimeHasAlreadyPassedException)",
+              "attributes": {
+                "Type": "Method"
+              }
+            },
+            {
+              "name": "handleNotEnoughSeats(NotEnoughSeatsException)",
+              "attributes": {
+                "Type": "Method"
+              }
+            },
+            {
+              "name": "handleNotEnoughSeats(InvalidCouponException)",
+              "attributes": {
+                "Type": "Method"
+              }
+            },
+            {
+              "name": "handleUserMismatch(BookingUserMismatchException)",
+              "attributes": {
+                "Type": "Method"
+              }
+            },
+            {
+              "name": "handleNoSeatsToCancel(NoSeatsToCancelException)",
+              "attributes": {
+                "Type": "Method"
+              }
+            },
+            {
+              "name": "handleCancellingMore(CancellingMoreThanBookedException)",
+              "attributes": {
+                "Type": "Method"
+              }
+            },
+            {
+              "name": "handleBookingDoesNotExist(BookingDoesNotExistException)",
+              "attributes": {
+                "Type": "Method"
+              }
+            },
+            {
+              "name": "handleCancellingTooLate(CancellingTooLateException)",
+              "attributes": {
+                "Type": "Method"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Booking.java",
+      "attributes": {
+        "Type": "File",
+        "Contains": "Model/Entity/DTO",
+        "Path": "C:/Users/antekriwal/Desktop/My WorkSpace/JavaTrack/hu-sp-3ffa93bc6-main-4006bd983-antekriwal_deloitte-1719299916638/src/main/java/com/hashedin/huSpark/model/Booking.java"
+      },
+      "children": [
+        {
+          "name": "Booking",
+          "attributes": {
+            "Type": "Class",
+            "Fields": [
+              "bookingId Long",
+              "totalNoOfSeatsBooked Integer",
+              "totalNoOfSeatsCancelled Integer",
+              "totalAmountPayed Float",
+              "bookingDate LocalDate",
+              "user User",
+              "event Event",
+              "coupon Coupon",
+              "bookingCancellations Set<BookingCancellation>"
+            ],
+            "Path": "C:/Users/antekriwal/Desktop/My WorkSpace/JavaTrack/hu-sp-3ffa93bc6-main-4006bd983-antekriwal_deloitte-1719299916638/src/main/java/com/hashedin/huSpark/model/Booking.java"
+          }
+        }
+      ]
+    },
+    {
+      "name": "BookingCancellation.java",
+      "attributes": {
+        "Type": "File",
+        "Contains": "Model/Entity/DTO",
+        "Path": "C:/Users/antekriwal/Desktop/My WorkSpace/JavaTrack/hu-sp-3ffa93bc6-main-4006bd983-antekriwal_deloitte-1719299916638/src/main/java/com/hashedin/huSpark/model/BookingCancellation.java"
+      },
+      "children": [
+        {
+          "name": "BookingCancellation",
+          "attributes": {
+            "Type": "Class",
+            "Fields": [
+              "cancellationId Long",
+              "amountRefunded Float",
+              "cancellationTime LocalDateTime",
+              "booking Booking"
+            ],
+            "Path": "C:/Users/antekriwal/Desktop/My WorkSpace/JavaTrack/hu-sp-3ffa93bc6-main-4006bd983-antekriwal_deloitte-1719299916638/src/main/java/com/hashedin/huSpark/model/BookingCancellation.java"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Coupon.java",
+      "attributes": {
+        "Type": "File",
+        "Contains": "Model/Entity/DTO",
+        "Path": "C:/Users/antekriwal/Desktop/My WorkSpace/JavaTrack/hu-sp-3ffa93bc6-main-4006bd983-antekriwal_deloitte-1719299916638/src/main/java/com/hashedin/huSpark/model/Coupon.java"
+      },
+      "children": [
+        {
+          "name": "Coupon",
+          "attributes": {
+            "Type": "Class",
+            "Fields": [
+              "couponId Long",
+              "couponCode String",
+              "offPercentage Float",
+              "expiry LocalDateTime",
+              "couponCount Integer",
+              "eventType EventType",
+              "booking Set<Booking>"
+            ],
+            "Path": "C:/Users/antekriwal/Desktop/My WorkSpace/JavaTrack/hu-sp-3ffa93bc6-main-4006bd983-antekriwal_deloitte-1719299916638/src/main/java/com/hashedin/huSpark/model/Coupon.java"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Event.java",
+      "attributes": {
+        "Type": "File",
+        "Contains": "Model/Entity/DTO",
+        "Path": "C:/Users/antekriwal/Desktop/My WorkSpace/JavaTrack/hu-sp-3ffa93bc6-main-4006bd983-antekriwal_deloitte-1719299916638/src/main/java/com/hashedin/huSpark/model/Event.java"
+      },
+      "children": [
+        {
+          "name": "Event",
+          "attributes": {
+            "Type": "Class",
+            "Fields": [
+              "eventId Long",
+              "eventName String",
+              "availableSeats Integer",
+              "startTime LocalDateTime",
+              "endTime LocalDateTime",
+              "eventType EventType",
+              "theater Theater",
+              "setOfBookings Set<Booking>"
+            ],
+            "Path": "C:/Users/antekriwal/Desktop/My WorkSpace/JavaTrack/hu-sp-3ffa93bc6-main-4006bd983-antekriwal_deloitte-1719299916638/src/main/java/com/hashedin/huSpark/model/Event.java"
+          }
+        }
+      ]
+    },
+    {
+      "name": "EventType.java",
+      "attributes": {
+        "Type": "File",
+        "Contains": "Model/Entity/DTO",
+        "Path": "C:/Users/antekriwal/Desktop/My WorkSpace/JavaTrack/hu-sp-3ffa93bc6-main-4006bd983-antekriwal_deloitte-1719299916638/src/main/java/com/hashedin/huSpark/model/EventType.java"
+      },
+      "children": [
+        {
+          "name": "EventType",
+          "attributes": {
+            "Type": "Class",
+            "Fields": [
+              "eventTypeId Long",
+              "gstPercentage Float",
+              "price Float",
+              "type String",
+              "setOfCoupons Set<Coupon>",
+              "setOfEvents Set<Event>"
+            ],
+            "Path": "C:/Users/antekriwal/Desktop/My WorkSpace/JavaTrack/hu-sp-3ffa93bc6-main-4006bd983-antekriwal_deloitte-1719299916638/src/main/java/com/hashedin/huSpark/model/EventType.java"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Theater.java",
+      "attributes": {
+        "Type": "File",
+        "Contains": "Model/Entity/DTO",
+        "Path": "C:/Users/antekriwal/Desktop/My WorkSpace/JavaTrack/hu-sp-3ffa93bc6-main-4006bd983-antekriwal_deloitte-1719299916638/src/main/java/com/hashedin/huSpark/model/Theater.java"
+      },
+      "children": [
+        {
+          "name": "Theater",
+          "attributes": {
+            "Type": "Class",
+            "Fields": [
+              "theaterId Long",
+              "theaterName String",
+              "city String",
+              "movieSeatsCapacity Integer",
+              "concertSeatsCapacity Integer",
+              "liveShowSeatsCapacity Integer",
+              "setOfEvents Set<Event>"
+            ],
+            "Path": "C:/Users/antekriwal/Desktop/My WorkSpace/JavaTrack/hu-sp-3ffa93bc6-main-4006bd983-antekriwal_deloitte-1719299916638/src/main/java/com/hashedin/huSpark/model/Theater.java"
+          }
+        }
+      ]
+    },
+    {
+      "name": "User.java",
+      "attributes": {
+        "Type": "File",
+        "Contains": "Model/Entity/DTO",
+        "Path": "C:/Users/antekriwal/Desktop/My WorkSpace/JavaTrack/hu-sp-3ffa93bc6-main-4006bd983-antekriwal_deloitte-1719299916638/src/main/java/com/hashedin/huSpark/model/User.java"
+      },
+      "children": [
+        {
+          "name": "User",
+          "attributes": {
+            "Type": "Class",
+            "Fields": [
+              "userId Long",
+              "name String",
+              "email String",
+              "password String",
+              "mobile String",
+              "dateOfBirth LocalDate",
+              "bookingsCount Integer",
+              "role String",
+              "setOfBookings Set<Booking>"
+            ],
+            "Path": "C:/Users/antekriwal/Desktop/My WorkSpace/JavaTrack/hu-sp-3ffa93bc6-main-4006bd983-antekriwal_deloitte-1719299916638/src/main/java/com/hashedin/huSpark/model/User.java"
+          }
+        }
+      ]
+    },
+    {
+      "name": "BookingCancellationRepository.java",
+      "attributes": {
+        "Type": "File",
+        "Contains": "Database Repository",
+        "Path": "C:/Users/antekriwal/Desktop/My WorkSpace/JavaTrack/hu-sp-3ffa93bc6-main-4006bd983-antekriwal_deloitte-1719299916638/src/main/java/com/hashedin/huSpark/repository/BookingCancellationRepository.java"
+      },
+      "children": [
+        {
+          "name": "BookingCancellationRepository",
+          "attributes": {
+            "Type": "Class",
+            "Extends": "JpaRepository",
+            "Path": "C:/Users/antekriwal/Desktop/My WorkSpace/JavaTrack/hu-sp-3ffa93bc6-main-4006bd983-antekriwal_deloitte-1719299916638/src/main/java/com/hashedin/huSpark/repository/BookingCancellationRepository.java"
+          }
+        }
+      ]
+    },
+    {
+      "name": "BookingRepository.java",
+      "attributes": {
+        "Type": "File",
+        "Contains": "Database Repository",
+        "Path": "C:/Users/antekriwal/Desktop/My WorkSpace/JavaTrack/hu-sp-3ffa93bc6-main-4006bd983-antekriwal_deloitte-1719299916638/src/main/java/com/hashedin/huSpark/repository/BookingRepository.java"
+      },
+      "children": [
+        {
+          "name": "BookingRepository",
+          "attributes": {
+            "Type": "Class",
+            "Extends": "JpaRepository",
+            "Path": "C:/Users/antekriwal/Desktop/My WorkSpace/JavaTrack/hu-sp-3ffa93bc6-main-4006bd983-antekriwal_deloitte-1719299916638/src/main/java/com/hashedin/huSpark/repository/BookingRepository.java"
+          },
+          "children": [
+            {
+              "name": "checkIfBookingExists(Event)",
+              "attributes": {
+                "Type": "Method"
+              }
+            },
+            {
+              "name": "findMyAllUpcomingBookings(Long, LocalDate)",
+              "attributes": {
+                "Type": "Method"
+              }
+            },
+            {
+              "name": "findMyAllPastBookings(Long, LocalDate)",
+              "attributes": {
+                "Type": "Method"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "CouponRepository.java",
+      "attributes": {
+        "Type": "File",
+        "Contains": "Database Repository",
+        "Path": "C:/Users/antekriwal/Desktop/My WorkSpace/JavaTrack/hu-sp-3ffa93bc6-main-4006bd983-antekriwal_deloitte-1719299916638/src/main/java/com/hashedin/huSpark/repository/CouponRepository.java"
+      },
+      "children": [
+        {
+          "name": "CouponRepository",
+          "attributes": {
+            "Type": "Class",
+            "Implements": [
+              "JpaRepository<Coupon, Long>",
+              "Repository"
+            ],
+            "Path": "C:/Users/antekriwal/Desktop/My WorkSpace/JavaTrack/hu-sp-3ffa93bc6-main-4006bd983-antekriwal_deloitte-1719299916638/src/main/java/com/hashedin/huSpark/repository/CouponRepository.java"
+          },
+          "children": [
+            {
+              "name": "findAllByEventTypeId(Long eventTypeId)",
+              "attributes": {
+                "Type": "Method"
+              }
+            },
+            {
+              "name": "findByExpiryBefore(LocalDateTime now)",
+              "attributes": {
+                "Type": "Method"
+              }
+            },
+            {
+              "name": "findByCouponCountLessThanEqual(int i)",
+              "attributes": {
+                "Type": "Method"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "EventRepository.java",
+      "attributes": {
+        "Type": "File",
+        "Contains": "Database Repository",
+        "Path": "C:/Users/antekriwal/Desktop/My WorkSpace/JavaTrack/hu-sp-3ffa93bc6-main-4006bd983-antekriwal_deloitte-1719299916638/src/main/java/com/hashedin/huSpark/repository/EventRepository.java"
+      },
+      "children": [
+        {
+          "name": "EventRepository",
+          "attributes": {
+            "Type": "Class",
+            "Extends": "JpaRepository",
+            "Path": "C:/Users/antekriwal/Desktop/My WorkSpace/JavaTrack/hu-sp-3ffa93bc6-main-4006bd983-antekriwal_deloitte-1719299916638/src/main/java/com/hashedin/huSpark/repository/EventRepository.java"
+          },
+          "children": [
+            {
+              "name": "findByEventTypeIdAndTheaterIdAndTime(Theater, EventType, LocalDateTime, LocalDateTime)",
+              "attributes": {
+                "Type": "Method"
+              }
+            },
+            {
+              "name": "findUpcomingEvents(LocalDateTime)",
+              "attributes": {
+                "Type": "Method"
+              }
+            },
+            {
+              "name": "findAllEventsOfThisEventType(String)",
+              "attributes": {
+                "Type": "Method"
+              }
+            },
+            {
+              "name": "findAllEventsAtThisTheater(String)",
+              "attributes": {
+                "Type": "Method"
+              }
+            },
+            {
+              "name": "findAllByEventName(String)",
+              "attributes": {
+                "Type": "Method"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "EventTypeRepository.java",
+      "attributes": {
+        "Type": "File",
+        "Contains": "Database Repository",
+        "Path": "C:/Users/antekriwal/Desktop/My WorkSpace/JavaTrack/hu-sp-3ffa93bc6-main-4006bd983-antekriwal_deloitte-1719299916638/src/main/java/com/hashedin/huSpark/repository/EventTypeRepository.java"
+      },
+      "children": [
+        {
+          "name": "EventTypeRepository",
+          "attributes": {
+            "Type": "Class",
+            "Extends": "JpaRepository<EventType, Long>",
+            "Path": "C:/Users/antekriwal/Desktop/My WorkSpace/JavaTrack/hu-sp-3ffa93bc6-main-4006bd983-antekriwal_deloitte-1719299916638/src/main/java/com/hashedin/huSpark/repository/EventTypeRepository.java"
+          }
+        }
+      ]
+    },
+    {
+      "name": "TheaterRepository.java",
+      "attributes": {
+        "Type": "File",
+        "Contains": "Database Repository",
+        "Path": "C:/Users/antekriwal/Desktop/My WorkSpace/JavaTrack/hu-sp-3ffa93bc6-main-4006bd983-antekriwal_deloitte-1719299916638/src/main/java/com/hashedin/huSpark/repository/TheaterRepository.java"
+      },
+      "children": [
+        {
+          "name": "TheaterRepository",
+          "attributes": {
+            "Type": "Class",
+            "Implements": [
+              "JpaRepository<Theater, Long>"
+            ],
+            "Path": "C:/Users/antekriwal/Desktop/My WorkSpace/JavaTrack/hu-sp-3ffa93bc6-main-4006bd983-antekriwal_deloitte-1719299916638/src/main/java/com/hashedin/huSpark/repository/TheaterRepository.java"
+          }
+        }
+      ]
+    },
+    {
+      "name": "UserRepository.java",
+      "attributes": {
+        "Type": "File",
+        "Contains": "Database Repository",
+        "Path": "C:/Users/antekriwal/Desktop/My WorkSpace/JavaTrack/hu-sp-3ffa93bc6-main-4006bd983-antekriwal_deloitte-1719299916638/src/main/java/com/hashedin/huSpark/repository/UserRepository.java"
+      },
+      "children": [
+        {
+          "name": "UserRepository",
+          "attributes": {
+            "Type": "Class",
+            "Extends": "JpaRepository",
+            "Path": "C:/Users/antekriwal/Desktop/My WorkSpace/JavaTrack/hu-sp-3ffa93bc6-main-4006bd983-antekriwal_deloitte-1719299916638/src/main/java/com/hashedin/huSpark/repository/UserRepository.java"
+          },
+          "children": [
+            {
+              "name": "findByEmail(String)",
+              "attributes": {
+                "Type": "Method"
+              }
+            },
+            {
+              "name": "Optional<User> findById(Long)",
+              "attributes": {
+                "Type": "Method"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "MyCouponScheduler.java",
+      "attributes": {
+        "Type": "File",
+        "Contains": "Class",
+        "Path": "C:/Users/antekriwal/Desktop/My WorkSpace/JavaTrack/hu-sp-3ffa93bc6-main-4006bd983-antekriwal_deloitte-1719299916638/src/main/java/com/hashedin/huSpark/scheduler/MyCouponScheduler.java"
+      },
+      "children": [
+        {
+          "name": "MyCouponScheduler",
+          "attributes": {
+            "Type": "Class",
+            "Path": "C:/Users/antekriwal/Desktop/My WorkSpace/JavaTrack/hu-sp-3ffa93bc6-main-4006bd983-antekriwal_deloitte-1719299916638/src/main/java/com/hashedin/huSpark/scheduler/MyCouponScheduler.java"
+          },
+          "children": [
+            {
+              "name": "deleteExpiredCoupons()",
+              "attributes": {
+                "Type": "Method"
+              },
+              "children": [
+                {
+                  "name": "deleteExpiredCoupons()",
+                  "attributes": {
+                    "Type": "Function Call",
+                    "Class": "CouponService",
+                    "Path": "C:/Users/antekriwal/Desktop/My WorkSpace/JavaTrack/hu-sp-3ffa93bc6-main-4006bd983-antekriwal_deloitte-1719299916638/src/main/java/com/hashedin/huSpark/service/CouponService.java"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "JwtService.java",
+      "attributes": {
+        "Type": "File",
+        "Contains": "Service",
+        "Path": "C:/Users/antekriwal/Desktop/My WorkSpace/JavaTrack/hu-sp-3ffa93bc6-main-4006bd983-antekriwal_deloitte-1719299916638/src/main/java/com/hashedin/huSpark/security/JwtService.java"
+      },
+      "children": [
+        {
+          "name": "JwtService",
+          "attributes": {
+            "Type": "Class",
+            "Path": "C:/Users/antekriwal/Desktop/My WorkSpace/JavaTrack/hu-sp-3ffa93bc6-main-4006bd983-antekriwal_deloitte-1719299916638/src/main/java/com/hashedin/huSpark/security/JwtService.java"
+          },
+          "children": [
+            {
+              "name": "generateToken(UserDetails)",
+              "attributes": {
+                "Type": "Method"
+              }
+            },
+            {
+              "name": "extractUsername(String)",
+              "attributes": {
+                "Type": "Method"
+              }
+            },
+            {
+              "name": "isTokenValid(String)",
+              "attributes": {
+                "Type": "Method"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "MyUserDetails.java",
+      "attributes": {
+        "Type": "File",
+        "Contains": "Class",
+        "Path": "C:/Users/antekriwal/Desktop/My WorkSpace/JavaTrack/hu-sp-3ffa93bc6-main-4006bd983-antekriwal_deloitte-1719299916638/src/main/java/com/hashedin/huSpark/security/MyUserDetails.java"
+      },
+      "children": [
+        {
+          "name": "MyUserDetails",
+          "attributes": {
+            "Type": "Class",
+            "Implements": [
+              "UserDetails"
+            ],
+            "Path": "C:/Users/antekriwal/Desktop/My WorkSpace/JavaTrack/hu-sp-3ffa93bc6-main-4006bd983-antekriwal_deloitte-1719299916638/src/main/java/com/hashedin/huSpark/security/MyUserDetails.java"
+          },
+          "children": [
+            {
+              "name": "MyUserDetails(User)",
+              "attributes": {
+                "Type": "Method"
+              }
+            },
+            {
+              "name": "getAuthorities()",
+              "attributes": {
+                "Type": "Method"
+              }
+            },
+            {
+              "name": "getPassword()",
+              "attributes": {
+                "Type": "Method"
+              }
+            },
+            {
+              "name": "getUsername()",
+              "attributes": {
+                "Type": "Method"
+              }
+            },
+            {
+              "name": "isAccountNonExpired()",
+              "attributes": {
+                "Type": "Method"
+              }
+            },
+            {
+              "name": "isAccountNonLocked()",
+              "attributes": {
+                "Type": "Method"
+              }
+            },
+            {
+              "name": "isCredentialsNonExpired()",
+              "attributes": {
+                "Type": "Method"
+              }
+            },
+            {
+              "name": "isEnabled()",
+              "attributes": {
+                "Type": "Method"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "SecurityConfiguration.java",
+      "attributes": {
+        "Type": "File",
+        "Contains": "Class",
+        "Path": "C:/Users/antekriwal/Desktop/My WorkSpace/JavaTrack/hu-sp-3ffa93bc6-main-4006bd983-antekriwal_deloitte-1719299916638/src/main/java/com/hashedin/huSpark/security/SecurityConfiguration.java"
+      },
+      "children": [
+        {
+          "name": "SecurityConfiguration",
+          "attributes": {
+            "Type": "Class",
+            "Path": "C:/Users/antekriwal/Desktop/My WorkSpace/JavaTrack/hu-sp-3ffa93bc6-main-4006bd983-antekriwal_deloitte-1719299916638/src/main/java/com/hashedin/huSpark/security/SecurityConfiguration.java"
+          },
+          "children": [
+            {
+              "name": "authenticationProvider()",
+              "attributes": {
+                "Type": "Method"
+              }
+            },
+            {
+              "name": "authenticationManager()",
+              "attributes": {
+                "Type": "Method"
+              }
+            },
+            {
+              "name": "passwordEncoder()",
+              "attributes": {
+                "Type": "Method"
+              }
+            },
+            {
+              "name": "filterChain(HttpSecurity)",
+              "attributes": {
+                "Type": "Method"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "UserDetailsServiceImpl.java",
+      "attributes": {
+        "Type": "File",
+        "Contains": "Service",
+        "Path": "C:/Users/antekriwal/Desktop/My WorkSpace/JavaTrack/hu-sp-3ffa93bc6-main-4006bd983-antekriwal_deloitte-1719299916638/src/main/java/com/hashedin/huSpark/security/UserDetailsServiceImpl.java"
+      }
+    },
+    {
+      "name": "BookingService.java",
+      "attributes": {
+        "Type": "File",
+        "Contains": "Service",
+        "Path": "C:/Users/antekriwal/Desktop/My WorkSpace/JavaTrack/hu-sp-3ffa93bc6-main-4006bd983-antekriwal_deloitte-1719299916638/src/main/java/com/hashedin/huSpark/service/BookingService.java"
+      },
+      "children": [
+        {
+          "name": "BookingService",
+          "attributes": {
+            "Type": "Interface",
+            "Path": "C:/Users/antekriwal/Desktop/My WorkSpace/JavaTrack/hu-sp-3ffa93bc6-main-4006bd983-antekriwal_deloitte-1719299916638/src/main/java/com/hashedin/huSpark/service/BookingService.java"
+          },
+          "children": [
+            {
+              "name": "bookMyShow(Booking)",
+              "attributes": {
+                "Type": "Method"
+              }
+            },
+            {
+              "name": "cancelMyShow(Long, Integer)",
+              "attributes": {
+                "Type": "Method"
+              }
+            },
+            {
+              "name": "findMyUpcomingBookings()",
+              "attributes": {
+                "Type": "Method"
+              }
+            },
+            {
+              "name": "findMyPastBookings()",
+              "attributes": {
+                "Type": "Method"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "CouponService.java",
+      "attributes": {
+        "Type": "File",
+        "Contains": "Service",
+        "Path": "C:/Users/antekriwal/Desktop/My WorkSpace/JavaTrack/hu-sp-3ffa93bc6-main-4006bd983-antekriwal_deloitte-1719299916638/src/main/java/com/hashedin/huSpark/service/CouponService.java"
+      },
+      "children": [
+        {
+          "name": "CouponService",
+          "attributes": {
+            "Type": "Interface",
+            "Path": "C:/Users/antekriwal/Desktop/My WorkSpace/JavaTrack/hu-sp-3ffa93bc6-main-4006bd983-antekriwal_deloitte-1719299916638/src/main/java/com/hashedin/huSpark/service/CouponService.java"
+          },
+          "children": [
+            {
+              "name": "addNewCoupon(com.hashedin.huSpark.model.Coupon)",
+              "attributes": {
+                "Type": "Method"
+              }
+            },
+            {
+              "name": "deleteExpiredCoupons()",
+              "attributes": {
+                "Type": "Method"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "EventService.java",
+      "attributes": {
+        "Type": "File",
+        "Contains": "Service",
+        "Path": "C:/Users/antekriwal/Desktop/My WorkSpace/JavaTrack/hu-sp-3ffa93bc6-main-4006bd983-antekriwal_deloitte-1719299916638/src/main/java/com/hashedin/huSpark/service/EventService.java"
+      },
+      "children": [
+        {
+          "name": "EventService",
+          "attributes": {
+            "Type": "Interface",
+            "Path": "C:/Users/antekriwal/Desktop/My WorkSpace/JavaTrack/hu-sp-3ffa93bc6-main-4006bd983-antekriwal_deloitte-1719299916638/src/main/java/com/hashedin/huSpark/service/EventService.java"
+          },
+          "children": [
+            {
+              "name": "addNewEvent(Event)",
+              "attributes": {
+                "Type": "Method"
+              }
+            },
+            {
+              "name": "deleteThisEvent(Long)",
+              "attributes": {
+                "Type": "Method"
+              }
+            },
+            {
+              "name": "getUpcomingEvents()",
+              "attributes": {
+                "Type": "Method"
+              }
+            },
+            {
+              "name": "findAllByEventName(String)",
+              "attributes": {
+                "Type": "Method"
+              }
+            },
+            {
+              "name": "findAllEventsOfThisEventType(String)",
+              "attributes": {
+                "Type": "Method"
+              }
+            },
+            {
+              "name": "findAllEventsAtThisTheater(String)",
+              "attributes": {
+                "Type": "Method"
+              }
+            },
+            {
+              "name": "findEventsWithPaginationAndSorting(int, int, String)",
+              "attributes": {
+                "Type": "Method"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "EventTypeService.java",
+      "attributes": {
+        "Type": "File",
+        "Contains": "Service",
+        "Path": "C:/Users/antekriwal/Desktop/My WorkSpace/JavaTrack/hu-sp-3ffa93bc6-main-4006bd983-antekriwal_deloitte-1719299916638/src/main/java/com/hashedin/huSpark/service/EventTypeService.java"
+      },
+      "children": [
+        {
+          "name": "EventTypeService",
+          "attributes": {
+            "Type": "Class",
+            "Implements": [],
+            "Path": "C:/Users/antekriwal/Desktop/My WorkSpace/JavaTrack/hu-sp-3ffa93bc6-main-4006bd983-antekriwal_deloitte-1719299916638/src/main/java/com/hashedin/huSpark/service/EventTypeService.java"
+          },
+          "children": [
+            {
+              "name": "addNewEventType(com.hashedin.huSpark.model.EventType)",
+              "attributes": {
+                "Type": "Method"
+              }
+            },
+            {
+              "name": "getAllEventTypes()",
+              "attributes": {
+                "Type": "Method"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "TheaterService.java",
+      "attributes": {
+        "Type": "File",
+        "Contains": "Service",
+        "Path": "C:/Users/antekriwal/Desktop/My WorkSpace/JavaTrack/hu-sp-3ffa93bc6-main-4006bd983-antekriwal_deloitte-1719299916638/src/main/java/com/hashedin/huSpark/service/TheaterService.java"
+      },
+      "children": [
+        {
+          "name": "TheaterService",
+          "attributes": {
+            "Type": "Interface",
+            "Implements": [],
+            "Path": "C:/Users/antekriwal/Desktop/My WorkSpace/JavaTrack/hu-sp-3ffa93bc6-main-4006bd983-antekriwal_deloitte-1719299916638/src/main/java/com/hashedin/huSpark/service/TheaterService.java"
+          },
+          "children": [
+            {
+              "name": "addTheater(Theater)",
+              "attributes": {
+                "Type": "Method"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "UserService.java",
+      "attributes": {
+        "Type": "File",
+        "Contains": "Service",
+        "Path": "C:/Users/antekriwal/Desktop/My WorkSpace/JavaTrack/hu-sp-3ffa93bc6-main-4006bd983-antekriwal_deloitte-1719299916638/src/main/java/com/hashedin/huSpark/service/UserService.java"
+      }
+    },
+    {
+      "name": "BookingServiceImpl.java",
+      "attributes": {
+        "Type": "File",
+        "Contains": "Class",
+        "Path": "C:/Users/antekriwal/Desktop/My WorkSpace/JavaTrack/hu-sp-3ffa93bc6-main-4006bd983-antekriwal_deloitte-1719299916638/src/main/java/com/hashedin/huSpark/service/impl/BookingServiceImpl.java"
+      },
+      "children": [
+        {
+          "name": "BookingServiceImpl",
+          "attributes": {
+            "Type": "Class",
+            "Implements": [
+              "BookingService"
+            ],
+            "Path": "C:/Users/antekriwal/Desktop/My WorkSpace/JavaTrack/hu-sp-3ffa93bc6-main-4006bd983-antekriwal_deloitte-1719299916638/src/main/java/com/hashedin/huSpark/service/impl/BookingServiceImpl.java"
+          },
+          "children": [
+            {
+              "name": "bookMyShow(Booking)",
+              "attributes": {
+                "Type": "Method"
+              }
+            },
+            {
+              "name": "cancelMyShow(Long, Integer)",
+              "attributes": {
+                "Type": "Method"
+              }
+            },
+            {
+              "name": "findMyUpcomingBookings()",
+              "attributes": {
+                "Type": "Method"
+              },
+              "children": [
+                {
+                  "name": "findMyAllUpcomingBookings(Long, LocalDate)",
+                  "attributes": {
+                    "Type": "Function Call",
+                    "Class": "BookingRepository",
+                    "Path": "C:/Users/antekriwal/Desktop/My WorkSpace/JavaTrack/hu-sp-3ffa93bc6-main-4006bd983-antekriwal_deloitte-1719299916638/src/main/java/com/hashedin/huSpark/repository/BookingRepository.java"
+                  }
+                }
+              ]
+            },
+            {
+              "name": "findMyPastBookings()",
+              "attributes": {
+                "Type": "Method"
+              },
+              "children": [
+                {
+                  "name": "findMyAllPastBookings(Long, LocalDate)",
+                  "attributes": {
+                    "Type": "Function Call",
+                    "Class": "BookingRepository",
+                    "Path": "C:/Users/antekriwal/Desktop/My WorkSpace/JavaTrack/hu-sp-3ffa93bc6-main-4006bd983-antekriwal_deloitte-1719299916638/src/main/java/com/hashedin/huSpark/repository/BookingRepository.java"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "CouponServiceImpl.java",
+      "attributes": {
+        "Type": "File",
+        "Contains": "Service",
+        "Path": "C:/Users/antekriwal/Desktop/My WorkSpace/JavaTrack/hu-sp-3ffa93bc6-main-4006bd983-antekriwal_deloitte-1719299916638/src/main/java/com/hashedin/huSpark/service/impl/CouponServiceImpl.java"
+      },
+      "children": [
+        {
+          "name": "CouponServiceImpl",
+          "attributes": {
+            "Type": "Class",
+            "Implements": [
+              "CouponService"
+            ],
+            "Path": "C:/Users/antekriwal/Desktop/My WorkSpace/JavaTrack/hu-sp-3ffa93bc6-main-4006bd983-antekriwal_deloitte-1719299916638/src/main/java/com/hashedin/huSpark/service/impl/CouponServiceImpl.java"
+          },
+          "children": [
+            {
+              "name": "addNewCoupon(Coupon)",
+              "attributes": {
+                "Type": "Method"
+              }
+            },
+            {
+              "name": "deleteExpiredCoupons()",
+              "attributes": {
+                "Type": "Method"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "EventServiceImpl.java",
+      "attributes": {
+        "Type": "File",
+        "Contains": "Service",
+        "Path": "C:/Users/antekriwal/Desktop/My WorkSpace/JavaTrack/hu-sp-3ffa93bc6-main-4006bd983-antekriwal_deloitte-1719299916638/src/main/java/com/hashedin/huSpark/service/impl/EventServiceImpl.java"
+      },
+      "children": [
+        {
+          "name": "EventServiceImpl",
+          "attributes": {
+            "Type": "Class",
+            "Implements": [
+              "EventService"
+            ],
+            "Path": "C:/Users/antekriwal/Desktop/My WorkSpace/JavaTrack/hu-sp-3ffa93bc6-main-4006bd983-antekriwal_deloitte-1719299916638/src/main/java/com/hashedin/huSpark/service/impl/EventServiceImpl.java"
+          },
+          "children": [
+            {
+              "name": "addNewEvent(Event)",
+              "attributes": {
+                "Type": "Method"
+              },
+              "children": [
+                {
+                  "name": "findByEventTypeIdAndTheaterIdAndTime(Theater, EventType, LocalDateTime, LocalDateTime)",
+                  "attributes": {
+                    "Type": "Function Call",
+                    "Class": "EventRepository",
+                    "Path": "C:/Users/antekriwal/Desktop/My WorkSpace/JavaTrack/hu-sp-3ffa93bc6-main-4006bd983-antekriwal_deloitte-1719299916638/src/main/java/com/hashedin/huSpark/repository/EventRepository.java"
+                  }
+                }
+              ]
+            },
+            {
+              "name": "deleteThisEvent(Long)",
+              "attributes": {
+                "Type": "Method"
+              },
+              "children": [
+                {
+                  "name": "checkIfBookingExists(Event)",
+                  "attributes": {
+                    "Type": "Function Call",
+                    "Class": "BookingRepository",
+                    "Path": "C:/Users/antekriwal/Desktop/My WorkSpace/JavaTrack/hu-sp-3ffa93bc6-main-4006bd983-antekriwal_deloitte-1719299916638/src/main/java/com/hashedin/huSpark/repository/BookingRepository.java"
+                  }
+                }
+              ]
+            },
+            {
+              "name": "getUpcomingEvents()",
+              "attributes": {
+                "Type": "Method"
+              },
+              "children": [
+                {
+                  "name": "findUpcomingEvents(LocalDateTime)",
+                  "attributes": {
+                    "Type": "Function Call",
+                    "Class": "EventRepository",
+                    "Path": "C:/Users/antekriwal/Desktop/My WorkSpace/JavaTrack/hu-sp-3ffa93bc6-main-4006bd983-antekriwal_deloitte-1719299916638/src/main/java/com/hashedin/huSpark/repository/EventRepository.java"
+                  }
+                }
+              ]
+            },
+            {
+              "name": "findAllByEventName(String)",
+              "attributes": {
+                "Type": "Method"
+              },
+              "children": [
+                {
+                  "name": "findAllByEventName(String)",
+                  "attributes": {
+                    "Type": "Function Call",
+                    "Class": "EventRepository",
+                    "Path": "C:/Users/antekriwal/Desktop/My WorkSpace/JavaTrack/hu-sp-3ffa93bc6-main-4006bd983-antekriwal_deloitte-1719299916638/src/main/java/com/hashedin/huSpark/repository/EventRepository.java"
+                  }
+                }
+              ]
+            },
+            {
+              "name": "findAllEventsOfThisEventType(String)",
+              "attributes": {
+                "Type": "Method"
+              },
+              "children": [
+                {
+                  "name": "findAllEventsOfThisEventType(String)",
+                  "attributes": {
+                    "Type": "Function Call",
+                    "Class": "EventRepository",
+                    "Path": "C:/Users/antekriwal/Desktop/My WorkSpace/JavaTrack/hu-sp-3ffa93bc6-main-4006bd983-antekriwal_deloitte-1719299916638/src/main/java/com/hashedin/huSpark/repository/EventRepository.java"
+                  }
+                }
+              ]
+            },
+            {
+              "name": "findAllEventsAtThisTheater(String)",
+              "attributes": {
+                "Type": "Method"
+              },
+              "children": [
+                {
+                  "name": "findAllEventsAtThisTheater(String)",
+                  "attributes": {
+                    "Type": "Function Call",
+                    "Class": "EventRepository",
+                    "Path": "C:/Users/antekriwal/Desktop/My WorkSpace/JavaTrack/hu-sp-3ffa93bc6-main-4006bd983-antekriwal_deloitte-1719299916638/src/main/java/com/hashedin/huSpark/repository/EventRepository.java"
+                  }
+                }
+              ]
+            },
+            {
+              "name": "findEventsWithPaginationAndSorting(int, int, String)",
+              "attributes": {
+                "Type": "Method"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "EventTypeServiceImpl.java",
+      "attributes": {
+        "Type": "File",
+        "Contains": "Service",
+        "Path": "C:/Users/antekriwal/Desktop/My WorkSpace/JavaTrack/hu-sp-3ffa93bc6-main-4006bd983-antekriwal_deloitte-1719299916638/src/main/java/com/hashedin/huSpark/service/impl/EventTypeServiceImpl.java"
+      },
+      "children": [
+        {
+          "name": "EventTypeServiceImpl",
+          "attributes": {
+            "Type": "Class",
+            "Path": "C:/Users/antekriwal/Desktop/My WorkSpace/JavaTrack/hu-sp-3ffa93bc6-main-4006bd983-antekriwal_deloitte-1719299916638/src/main/java/com/hashedin/huSpark/service/impl/EventTypeServiceImpl.java"
+          },
+          "children": [
+            {
+              "name": "addNewEventType(EventType)",
+              "attributes": {
+                "Type": "Method"
+              }
+            },
+            {
+              "name": "getAllEventTypes()",
+              "attributes": {
+                "Type": "Method"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "TheaterServiceImpl.java",
+      "attributes": {
+        "Type": "File",
+        "Contains": "Service",
+        "Path": "C:/Users/antekriwal/Desktop/My WorkSpace/JavaTrack/hu-sp-3ffa93bc6-main-4006bd983-antekriwal_deloitte-1719299916638/src/main/java/com/hashedin/huSpark/service/impl/TheaterServiceImpl.java"
+      },
+      "children": [
+        {
+          "name": "TheaterServiceImpl",
+          "attributes": {
+            "Type": "Class",
+            "Implements": [
+              "TheaterService"
+            ],
+            "Path": "C:/Users/antekriwal/Desktop/My WorkSpace/JavaTrack/hu-sp-3ffa93bc6-main-4006bd983-antekriwal_deloitte-1719299916638/src/main/java/com/hashedin/huSpark/service/impl/TheaterServiceImpl.java"
+          },
+          "children": [
+            {
+              "name": "addTheater(Theater)",
+              "attributes": {
+                "Type": "Method"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "UserServiceImpl.java",
+      "attributes": {
+        "Type": "File",
+        "Contains": "Service",
+        "Path": "C:/Users/antekriwal/Desktop/My WorkSpace/JavaTrack/hu-sp-3ffa93bc6-main-4006bd983-antekriwal_deloitte-1719299916638/src/main/java/com/hashedin/huSpark/service/impl/UserServiceImpl.java"
+      },
+      "children": [
+        {
+          "name": "UserServiceImpl",
+          "attributes": {
+            "Type": "Class",
+            "Path": "C:/Users/antekriwal/Desktop/My WorkSpace/JavaTrack/hu-sp-3ffa93bc6-main-4006bd983-antekriwal_deloitte-1719299916638/src/main/java/com/hashedin/huSpark/service/impl/UserServiceImpl.java"
+          },
+          "children": [
+            {
+              "name": "addUser(User) throws UserAgeLessThan18Exception",
+              "attributes": {
+                "Type": "Method"
+              }
+            },
+            {
+              "name": "getToken(LoginForm)",
+              "attributes": {
+                "Type": "Method"
+              },
+              "children": [
+                {
+                  "name": "generateToken(UserDetails)",
+                  "attributes": {
+                    "Type": "Function Call",
+                    "Class": "JwtService",
+                    "Path": "C:/Users/antekriwal/Desktop/My WorkSpace/JavaTrack/hu-sp-3ffa93bc6-main-4006bd983-antekriwal_deloitte-1719299916638/src/main/java/com/hashedin/huSpark/security/JwtService.java"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

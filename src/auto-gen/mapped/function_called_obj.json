@@ -1,0 +1,26 @@
+[
+	{
+		"calling_method" : {
+			"file_path" : "C:/Users/aljha/Documents/java/hu/movie/movie/src/main/java/com/movie/movie/controller/MovieController.java",
+			"class_name" : "MovieController",
+			"method_name" : "addMovie(Movie)"
+		},
+		"receiving_method" : {
+			"file_path" : "C:/Users/aljha/Documents/java/hu/movie/movie/src/main/java/com/movie/movie/service/MovieService.java",
+			"class_name" : "MovieService",
+			"method_name" : "addMovie(Movie)"
+		}
+	},
+	{
+		"calling_method" : {
+			"file_path" : "C:/Users/aljha/Documents/java/hu/movie/movie/src/main/java/com/movie/movie/controller/MovieController.java",
+			"class_name" : "MovieController",
+			"method_name" : "getDirectorByMovieId(Long)"
+		},
+		"receiving_method" : {
+			"file_path" : "C:/Users/aljha/Documents/java/hu/movie/movie/src/main/java/com/movie/movie/service/MovieService.java",
+			"class_name" : "MovieService",
+			"method_name" : "getDirectorByMovieId(Long)"
+		}
+	}
+]

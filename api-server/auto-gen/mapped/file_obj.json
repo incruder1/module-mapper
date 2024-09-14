@@ -1,0 +1,22 @@
+[
+	{
+		"FilePath" : "C:/Users/aljha/Documents/ProdAss/ModuleMap/module-mapping/api-server/api_endpoints.py",
+		"FileName" : "api_endpoints.py",
+		"FileType" : "RestAPIController"
+	},
+	{
+		"FilePath" : "C:/Users/aljha/Documents/ProdAss/ModuleMap/module-mapping/src/components/Mermaid.js",
+		"FileName" : "Mermaid.js",
+		"FileType" : "Class"
+	},
+	{
+		"FilePath" : "C:/Users/aljha/Documents/ProdAss/ModuleMap/module-mapping/src/components/MermaidComp.js",
+		"FileName" : "MermaidComp.js",
+		"FileType" : "Class"
+	},
+	{
+		"FilePath" : "C:/Users/aljha/Documents/ProdAss/ModuleMap/module-mapping/src/components/MixedNodeElement.js",
+		"FileName" : "MixedNodeElement.js",
+		"FileType" : "Class"
+	}
+]
